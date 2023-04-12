@@ -1,0 +1,128 @@
+// VARIABLES AND MIXINS
+
+$color-white: #ffffff
+$color-light-grey: #F0F3FD
+
+$color-black: #000000
+
+$main-color: #1B1C57
+// $added-color:
+// $added-color-light: 
+
+// $btn-color:
+$btn-color-light: #D1FAE5
+
+// $btn-shadow: 
+// $box-shadow: 
+
+// COMMON STYLES 
+
+*, ::after, ::before
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+html
+    font-size: 62.5%
+    scroll-behavior: smooth
+
+body
+    font-size: 1.6rem
+    font-family: "Lexend", sans-serif
+    background-color: $color-white
+    background-image: url(../img/background-1.png)
+    background-repeat: no-repeat
+    background-position: -95px -208px
+    background-size: 732px
+
+main
+    overflow: hidden
+
+img
+    height: auto
+    display: block
+
+h1, h2, h3, h4
+    margin: 0
+
+a
+    color: $color-light-grey
+    font-size: 1.4rem
+    line-height: 1.75rem
+    text-decoration: none
+    transition: .3s
+
+    // &:hover,
+    // &:active
+    //     color: $added-color
+
+p
+    font-size: 2rem
+    line-height: 2.7rem
+    text-transform: none
+
+ul, ol
+    list-style: none
+
+i
+    font-size: 5rem
+
+.container
+    width: 120rem
+    margin: 0 auto
+
+.button
+    border-radius: 32px
+
+.btn-transparent
+    display: inline-block
+    padding: 8px 16px
+    background-color: rgba(255, 255, 255, 0.1)
+    border: 1px solid rgba(255, 255, 255, 0.3)
+
+.btn-light
+    border: none
+    background-color: #D1FAE5
+    padding: 10px 25px
+
+// HEADER
+
+.main-header
+    padding-top: 4rem
+
+.main-nav
+    display: flex
+    background-color: transparent
+    align-items: center
+    justify-content: space-between
+
+    &__logo
+        margin-right: auto
+
+.navigation
+    display: flex
+    justify-content: space-between
+    width: 27%
+    margin-right: 5%
+
+// SECTION HERO
+
+.hero
+    padding-top: 96px
+
+    &__img
+        position: fixed
+        top: 0px
+        right: 0px
+        width: 50%
+        height: 720px
+        background: linear-gradient(16.74deg, #0C1537 -6.09%, rgba(12, 21, 55, 0) 32.63%), url(../img/hero-img.jpg) center/cover no-repeat
+        border-radius: 0px 0px 0px 80px
+        z-index: -1
+
+    &__title
+        width: 30%
+        font-weight: 600
+        font-size: 40px
+        line-height: 50px
+        text-transform: capitalize
