@@ -13,7 +13,13 @@ $btn-color-light: #D1FAE5
 $btn-color-dark: #10B981
 $btn-font-green: #047857
 
-$color-search-pin: #F59E0B
+$text-shadow: -1px 0 $main-color, 0 1px $main-color, 1px 0 $main-color, 0 -1px $main-color
+
+$linear-gradient: linear-gradient(16.74deg, #0C1537 -6.09%, rgba(12, 21, 55, 0) 32.63%)
+
+@mixin display-between
+    display: flex
+    justify-content: space-between
 
 // COMMON STYLES 
 
@@ -48,8 +54,9 @@ h1, h2, h3, h4
 
 a
     color: $color-light-grey
-    font-size: 1.4rem
-    line-height: 1.75rem
+    font-weight: 600
+    font-size: 14px
+    line-height: 18px
     text-decoration: none
     transition: .3s
 
@@ -65,11 +72,8 @@ p
 ul, ol
     list-style: none
 
-// i
-//     font-size: 5rem
-
 .container
-    width: 130rem
+    width: 129rem
     margin: 0 auto
 
 .radius
@@ -82,10 +86,13 @@ ul, ol
     border: 1px solid rgba(255, 255, 255, 0.3)
 
 .btn-light_green
+    font-weight: 600
+    font-size: 14px
+    line-height: 22px
     border: none
     color: $btn-font-green
     background-color: #D1FAE5
-    padding: 14px 21px
+    padding: 12px 24.5px
 
 .btn-dark_green
     display: flex
@@ -129,30 +136,29 @@ ul, ol
         width: 720px
         height: 720px
         top: 0px
-        left: 805px
-        background: linear-gradient(16.74deg, #0C1537 -6.09%, rgba(12, 21, 55, 0) 32.63%), url(../img/hero-img.jpg)
+        left: 799px
+        background: $linear-gradient, url(../img/hero-img.jpg)
         border-radius: 0 0 0 80px
 
 .main-nav
-    display: flex
+    @include display-between
     align-items: center
-    justify-content: space-between
     background-color: transparent
 
     &__logo
         margin-right: auto
 
 .navigation
-    display: flex
+    @include display-between
     align-items: center
-    justify-content: space-between
-    width: 26%
-    margin-right: 5%
+    width: 27%
+    margin-right: 4%
 
 // SECTION HERO
 
 .hero
     position: relative
+    margin-bottom: 12rem
 
     &__title
         width: 30%
@@ -160,7 +166,7 @@ ul, ol
         font-weight: 600
         line-height: 50px
         text-transform: capitalize
-        text-shadow: -1px 0 $main-color, 0 1px $main-color, 1px 0 $main-color, 0 -1px $main-color
+        text-shadow: $text-shadow
         margin-bottom: 2.4rem
 
         span
@@ -207,13 +213,56 @@ ul, ol
         left: 380px
 
     &__partnership
+        @include display-between
         width: 33%
-        display: flex
-        justify-content: space-between
-        
+
     &__partnership-info
         color: $color-dark-grey
         font-size: 16px
         line-height: 32px
         text-transform: capitalize
 
+    &__right
+        @include display-between
+        position: absolute
+        width: 540px
+        height: 114px
+        right: 119px
+        bottom: -50px
+
+        &_big
+            display: flex
+            padding: 29px 26px
+            background-color: $color-white
+
+        &_small
+            display: flex
+            padding: 29px 24px
+            background-color: $color-white
+
+            img
+                margin-right: 16px
+
+        p
+            color: $main-color
+            font-weight: 600
+            font-size: 16px
+            line-height: 24px
+            text-transform: capitalize
+
+        span
+            color: $added-color
+            font-size: 12px
+            line-height: 20px
+            text-transform: capitalize
+
+.people
+    display: flex
+    width: 112px
+    margin-right: 16px
+
+.people li:nth-child(2)
+    transform: translateX(-27px)
+
+.people li:nth-child(3)
+    transform: translateX(-53px)
