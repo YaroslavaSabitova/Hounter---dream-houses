@@ -2,18 +2,18 @@
 
 $color-white: #ffffff
 $color-light-grey: #F0F3FD
-
+$color-light-grey-2: #E0E3EB
+$color-dark-grey: #888B97
 $color-black: #000000
 
 $main-color: #1B1C57
-// $added-color:
-// $added-color-light: 
+$added-color: #626687
 
-// $btn-color:
 $btn-color-light: #D1FAE5
+$btn-color-dark: #10B981
+$btn-font-green: #047857
 
-// $btn-shadow: 
-// $box-shadow: 
+$color-search-pin: #F59E0B
 
 // COMMON STYLES 
 
@@ -27,13 +27,14 @@ html
     scroll-behavior: smooth
 
 body
+    color: $main-color
     font-size: 1.6rem
     font-family: "Lexend", sans-serif
     background-color: $color-white
     background-image: url(../img/background-1.png)
     background-repeat: no-repeat
-    background-position: -95px -208px
-    background-size: 732px
+    background-position: -170px -220px
+    background-size: 800px
 
 main
     overflow: hidden
@@ -52,77 +53,155 @@ a
     text-decoration: none
     transition: .3s
 
-    // &:hover,
-    // &:active
-    //     color: $added-color
+a,
+button
+    cursor: pointer
 
 p
-    font-size: 2rem
-    line-height: 2.7rem
+    font-size: 1.6rem
+    line-height: 2.8rem
     text-transform: none
 
 ul, ol
     list-style: none
 
-i
-    font-size: 5rem
+// i
+//     font-size: 5rem
 
 .container
-    width: 120rem
+    width: 130rem
     margin: 0 auto
 
-.button
+.radius
     border-radius: 32px
 
 .btn-transparent
     display: inline-block
-    padding: 8px 16px
+    padding: 7.5px 16.5px
     background-color: rgba(255, 255, 255, 0.1)
     border: 1px solid rgba(255, 255, 255, 0.3)
 
-.btn-light
+.btn-light_green
     border: none
+    color: $btn-font-green
     background-color: #D1FAE5
-    padding: 10px 25px
+    padding: 14px 21px
+
+.btn-dark_green
+    display: flex
+    align-items: center
+    border: none
+    padding: 13px 16.5px
+    font-size: 14px
+    font-weight: 600
+    line-height: 22px
+    color: $color-white
+    background-color: $btn-color-dark
+
+    &::after
+        content: ""
+        background: url(../icon/arrow.svg) center/cover no-repeat
+        width: 18px
+        height: 18px
+        transform: rotate(-90deg)
+        margin-left: 10px
+
+.list
+    display: flex
+
+    &::after
+        content: ""
+        background: url(../icon/arrow.svg) center/cover no-repeat
+        width: 18px
+        height: 18px
+        margin-left: 10px
 
 // HEADER
 
 .main-header
+    position: relative
     padding-top: 4rem
+    margin-bottom: 9.6rem
+
+    &__img
+        position: absolute
+        z-index: -1
+        width: 720px
+        height: 720px
+        top: 0px
+        left: 805px
+        background: linear-gradient(16.74deg, #0C1537 -6.09%, rgba(12, 21, 55, 0) 32.63%), url(../img/hero-img.jpg)
+        border-radius: 0 0 0 80px
 
 .main-nav
     display: flex
-    background-color: transparent
     align-items: center
     justify-content: space-between
+    background-color: transparent
 
     &__logo
         margin-right: auto
 
 .navigation
     display: flex
+    align-items: center
     justify-content: space-between
-    width: 27%
+    width: 26%
     margin-right: 5%
 
 // SECTION HERO
 
 .hero
-    padding-top: 96px
-
-    &__img
-        position: fixed
-        top: 0px
-        right: 0px
-        width: 50%
-        height: 720px
-        background: linear-gradient(16.74deg, #0C1537 -6.09%, rgba(12, 21, 55, 0) 32.63%), url(../img/hero-img.jpg) center/cover no-repeat
-        border-radius: 0px 0px 0px 80px
-        z-index: -1
+    position: relative
 
     &__title
         width: 30%
-        font-weight: 600
         font-size: 40px
+        font-weight: 600
         line-height: 50px
         text-transform: capitalize
+        text-shadow: -1px 0 $main-color, 0 1px $main-color, 1px 0 $main-color, 0 -1px $main-color
+        margin-bottom: 2.4rem
+
+        span
+            color: $color-white
+
+    &__info
+        width: 38%
+        color: $added-color
+        opacity: 0.75
+        margin-bottom: 3.2rem
+
+    &__search
+        position: relative
+        margin-bottom: 3.2rem
+
+        &::before
+            content: ""
+            position: absolute
+            top: 18px
+            left: 28px
+            width: 18px
+            height: 22px
+            background: url(../icon/pin.svg) center/cover no-repeat
+
+        input
+            width: 38.2%
+            padding: 18px 64px
+            color: $color-dark-grey
+            font-weight: 500
+            font-size: 14px
+            line-height: 22px
+            border: 1px solid $color-light-grey-2
+            
+            &:focus
+                outline: none
+
+        label
+            position: absolute
+            clip: rect(0 0 0 0)
+
+    &__button
+        position: absolute
+        top: 6px
+        left: 380px
