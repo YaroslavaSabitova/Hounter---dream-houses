@@ -247,4 +247,19 @@ ul, ol {
   left: 380px;
 }
 
+/* line 209, ../../Desktop/ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+.hero__partnership {
+  width: 33%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* line 214, ../../Desktop/ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+.hero__partnership-info {
+  color: #888B97;
+  font-size: 16px;
+  line-height: 32px;
+  text-transform: capitalize;
+}
+
 /*# sourceMappingURL=style.css.map */
