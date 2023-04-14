@@ -15,8 +15,6 @@ $btn-font-green: #047857
 
 $text-shadow: -1px 0 $main-color, 0 1px $main-color, 1px 0 $main-color, 0 -1px $main-color
 
-$linear-gradient: linear-gradient(16.74deg, #0C1537 -6.09%, rgba(12, 21, 55, 0) 32.63%)
-
 @mixin display-between
     display: flex
     justify-content: space-between
@@ -37,10 +35,6 @@ body
     font-size: 1.6rem
     font-family: "Lexend", sans-serif
     background-color: $color-white
-    background-image: url(../img/background-1.png)
-    background-repeat: no-repeat
-    background-position: -170px -220px
-    background-size: 800px
 
 main
     overflow: hidden
@@ -73,8 +67,30 @@ ul, ol
     list-style: none
 
 .container
-    width: 129rem
+    width: 1200px
     margin: 0 auto
+
+.container-wrapper
+    width: 1320px
+    margin: 0 auto
+    position: relative
+
+.background-wrapper
+    position: relative
+    margin: 0 auto
+    max-width: 1920px
+
+    &::before
+        position: absolute
+        content: ""
+        top: -230px
+        left: -170px
+        background-image: url(../img/background-1.png)
+        background-repeat: no-repeat
+        background-position: top left
+        background-size: 800px
+        width: 800px
+        height: 800px
 
 .radius
     border-radius: 32px
@@ -123,27 +139,13 @@ ul, ol
         height: 18px
         margin-left: 10px
 
-// HEADER
-
-.main-header
-    position: relative
-    padding-top: 4rem
-    margin-bottom: 9.6rem
-
-    &__img
-        position: absolute
-        z-index: -1
-        width: 720px
-        height: 720px
-        top: 0px
-        left: 799px
-        background: $linear-gradient, url(../img/hero-img.jpg)
-        border-radius: 0 0 0 80px
-
 .main-nav
     @include display-between
     align-items: center
     background-color: transparent
+    width: 1200px
+    margin-top: 40px
+    margin-bottom: 96px
 
     &__logo
         margin-right: auto
@@ -151,14 +153,22 @@ ul, ol
 .navigation
     @include display-between
     align-items: center
-    width: 27%
+    width: 29%
     margin-right: 4%
 
 // SECTION HERO
 
 .hero
-    position: relative
-    margin-bottom: 12rem
+    margin-bottom: 120px
+
+    &__right
+        border-radius: 0px 0px 0px 80px
+
+        &_img
+            position: absolute
+            top: -40px
+            right: -60px
+            z-index: -1
 
     &__title
         width: 30%
@@ -210,7 +220,7 @@ ul, ol
     &__button
         position: absolute
         top: 6px
-        left: 376px
+        left: 342px
 
     &__partnership
         @include display-between
@@ -222,13 +232,13 @@ ul, ol
         line-height: 32px
         text-transform: capitalize
 
-    &__right
+    &__boxes
         @include display-between
         position: absolute
         width: 540px
         height: 114px
-        right: 119px
-        bottom: -50px
+        right: 60px
+        bottom: 70px
 
         &_big
             display: flex
