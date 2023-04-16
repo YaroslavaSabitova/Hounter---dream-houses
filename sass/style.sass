@@ -7,7 +7,10 @@ $color-dark-grey: #888B97
 $color-black: #000000
 
 $main-color: #1B1C57
+$main-color-dark: #0E1735
 $added-color: #626687
+$added-color-dark: #3C4563
+$pretitle-color: #F59E0B
 
 $btn-color-light: #D1FAE5
 $btn-color-dark: #10B981
@@ -78,13 +81,13 @@ ul, ol
 .background-wrapper
     position: relative
     margin: 0 auto
-    max-width: 1920px
+    max-width: 1440px
 
     &::before
         position: absolute
         content: ""
         top: -230px
-        left: -170px
+        left: -140px
         background-image: url(../img/background-1.png)
         background-repeat: no-repeat
         background-position: top left
@@ -139,12 +142,28 @@ ul, ol
         height: 18px
         margin-left: 10px
 
+.visually-hidden
+    position: absolute
+    width: 1px
+    height: 1px
+    margin: -1px
+    border: 0
+    padding: 0
+    white-space: nowrap
+    clip-path: inset(100%)
+    clip: rect(0 0 0 0)
+    overflow: hidden
+
+// HEADER
+
+.main-header
+    padding-top: 40px
+
 .main-nav
     @include display-between
     align-items: center
     background-color: transparent
     width: 1200px
-    margin-top: 40px
     margin-bottom: 96px
 
     &__logo
@@ -159,14 +178,14 @@ ul, ol
 // SECTION HERO
 
 .hero
-    margin-bottom: 120px
+    margin-bottom: 210px
 
     &__right
         border-radius: 0px 0px 0px 80px
 
         &_img
             position: absolute
-            top: -40px
+            top: 0px
             right: -60px
             z-index: -1
 
@@ -238,7 +257,7 @@ ul, ol
         width: 540px
         height: 114px
         right: 60px
-        bottom: 70px
+        top: 567px
 
         &_big
             display: flex
@@ -276,3 +295,146 @@ ul, ol
 
 .people li:nth-child(3)
     transform: translateX(-53px)
+
+// SECTION FEATURES
+
+.section
+
+    &__container
+        width: 1320px
+        margin-left: 40px
+
+    &__pretitle
+        color: $pretitle-color
+        font-weight: 500
+        font-size: 14px
+        line-height: 18px
+        text-transform: capitalize
+        position: relative
+        margin: 0 0 12px 40px
+
+        &::before
+            position: absolute
+            content: ""
+            width: 32px
+            height: 1px
+            top: 8px
+            left: -40px
+            background-color: $pretitle-color
+
+.features
+    margin-bottom: 120px
+
+    &__title
+        font-weight: 600
+        font-size: 32px
+        line-height: 40px
+        text-transform: capitalize
+        margin-bottom: 40px
+
+    &__subtitle
+        font-weight: 500
+        font-size: 24px
+        line-height: 32px
+        margin-bottom: 8px
+
+    &__info
+        color: $added-color-dark
+
+.slider
+    position: relative
+    width: 100%
+    height: 60rem
+    overflow: hidden
+    margin: 0 auto
+
+    &__button
+        position: absolute
+        top: 120px
+        bottom: 0
+        margin: auto 0
+        display: flex
+        align-items: center
+        justify-content: center
+        width: 60px
+        height: 52px
+        background-color: $btn-color-dark
+        border: none
+        box-sizing: border-box
+        cursor: pointer
+        z-index: 1
+
+        svg
+            fill: $color-white
+
+        &:disabled
+            pointer-events: none
+            background-color: $color-light-grey-2
+        &:disabled svg
+            fill: $added-color-dark
+
+        &:hover
+            opacity: 0.7
+        &:active
+            opacity: 0.5
+
+    &__button_prev
+        right: 150px
+
+    &__button_next
+        right: 60px
+        transform: rotate(180deg)
+
+.slides
+    display: flex
+    width: 100%
+    height: 100%
+    padding: 0
+    margin: 0
+    list-style: none
+    transition: transform 300ms ease
+
+.slide
+    width: 29%
+    flex: none
+    display: flex
+    flex-direction: column
+
+    img
+        border-radius: 24px
+        margin-bottom: 24px
+
+    &__info
+        color: $main-color-dark
+        text-transform: capitalize
+
+.slider__navigation
+    position: absolute
+    left: 0
+    right: 0
+    bottom: -1.8rem
+    display: flex
+    justify-content: center
+    align-items: center
+    gap: 1rem
+    list-style: none
+    margin: 0 auto
+    padding: 2rem 0
+    z-index: 1
+
+    &-link
+        display: block
+        width: 4rem
+        height: .4rem
+        flex: none
+        background-color: $color-light-grey-2
+        border-radius: 2px
+
+        &:hover
+            opacity: 0.7
+        &:active
+            opacity: 0.5
+
+.active
+    background-color: $btn-color-dark
+    pointer-events: none
