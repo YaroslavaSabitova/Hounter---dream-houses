@@ -16,6 +16,12 @@ $btn-color-light: #D1FAE5
 $btn-color-dark: #10B981
 $btn-font-green: #047857
 
+$btn-popular-font: #EF4444
+$btn-popular-color: #FEE2E2
+
+$btn-new-font: #1D4ED8
+$btn-new-color: #DBEAFE
+
 $text-shadow: -1px 0 $main-color, 0 1px $main-color, 1px 0 $main-color, 0 -1px $main-color
 
 @mixin display-between
@@ -380,6 +386,36 @@ ul, ol
     &:hover i
         color: $btn-color-dark
 
+.img__button
+    display: flex
+    align-items: center
+    position: absolute
+    top: 331px
+    margin-left: 16px
+    padding: 8px 15px
+    font-weight: 500
+    font-size: 14px
+    line-height: 18px
+    text-transform: capitalize
+
+    i
+        margin-right: 12px
+
+    &_popular
+        width: 112px
+        color: $btn-popular-font
+        background-color: $btn-popular-color
+
+    &_new
+        width: 135px
+        color: $btn-new-font
+        background-color: $btn-new-color
+
+    &_best
+        width: 130px
+        color: $btn-font-green
+        background-color: $btn-color-light
+
 .slider
     position: relative
     width: 100%
@@ -438,6 +474,7 @@ ul, ol
     flex: none
     display: flex
     flex-direction: column
+    align-items: flex-start
 
     img
         border-radius: 24px
