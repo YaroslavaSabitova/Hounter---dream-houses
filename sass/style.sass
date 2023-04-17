@@ -28,6 +28,11 @@ $text-shadow: -1px 0 $main-color, 0 1px $main-color, 1px 0 $main-color, 0 -1px $
     display: flex
     justify-content: space-between
 
+@mixin display-between-center
+    display: flex
+    justify-content: space-between
+    align-items: center
+
 // COMMON STYLES 
 
 *, ::after, ::before
@@ -166,8 +171,7 @@ ul, ol
     padding-top: 40px
 
 .main-nav
-    @include display-between
-    align-items: center
+    @include display-between-center
     background-color: transparent
     width: 1200px
     margin-bottom: 96px
@@ -176,8 +180,7 @@ ul, ol
         margin-right: auto
 
 .navigation
-    @include display-between
-    align-items: center
+    @include display-between-center
     width: 29%
     margin-right: 4%
 
@@ -349,13 +352,13 @@ ul, ol
         font-size: 24px
         margin-bottom: 8px
 
-    &__info
+    &__price
         font-size: 20px
         color: $added-color-dark
+        margin-bottom: 24px
 
     &__block
-        @include display-between
-        align-items: center
+        @include display-between-center
         width: 67%
         margin-bottom: 40px
 
@@ -364,8 +367,7 @@ ul, ol
         width: 55%
 
 .block-button
-    @include display-between
-    align-items: center
+    @include display-between-center
     color: $color-dark-grey
     font-weight: 500
     font-size: 18px
@@ -484,33 +486,28 @@ ul, ol
         color: $main-color-dark
         text-transform: capitalize
 
-.slider__navigation
-    position: absolute
-    left: 0
-    right: 0
-    bottom: -1.8rem
-    display: flex
-    justify-content: center
-    align-items: center
-    gap: 1rem
-    list-style: none
-    margin: 0 auto
-    padding: 2rem 0
-    z-index: 1
+        &_people
+            display: flex
+            align-items: center
 
-    &-link
-        display: block
-        width: 4rem
-        height: .4rem
-        flex: none
-        background-color: $color-light-grey-2
-        border-radius: 2px
+        &_people img
+            margin: 0 16px 0 0
 
-        &:hover
-            opacity: 0.7
-        &:active
-            opacity: 0.5
+        &_contacts
+            @include display-between
+            align-items: flex-start
+            flex-direction: column
+            font-weight: 500
 
-.active
-    background-color: $btn-color-dark
-    pointer-events: none
+        &_contacts p
+            font-size: 18px
+            line-height: 24px
+            margin-bottom: 4px
+
+        &_contacts span
+            font-size: 14px
+            line-height: 22px
+            color: $color-dark-grey
+
+
+
