@@ -333,7 +333,6 @@ ul, ol
         font-size: 32px
         line-height: 40px
         text-transform: capitalize
-        margin-bottom: 40px
 
     &__subtitle,
     &__info
@@ -348,6 +347,39 @@ ul, ol
         font-size: 20px
         color: $added-color-dark
 
+    &__block
+        @include display-between
+        align-items: center
+        width: 67%
+        margin-bottom: 40px
+
+    &__navigation
+        @include display-between
+        width: 55%
+
+.block-button
+    @include display-between
+    align-items: center
+    color: $color-dark-grey
+    font-weight: 500
+    font-size: 18px
+    line-height: 28px
+    border: 1px solid $color-light-grey-2
+    padding: 11px 25px
+    transition: all .3s
+
+    i
+        margin-right: 11px
+        color: $color-dark-grey
+
+    &:hover
+        border: none
+        background-color: $btn-color-light
+        color: $btn-color-dark
+
+    &:hover i
+        color: $btn-color-dark
+
 .slider
     position: relative
     width: 100%
@@ -357,7 +389,7 @@ ul, ol
 
     &__button
         position: absolute
-        top: 220px
+        top: 227px
         bottom: 0
         margin: auto 0
         display: flex
