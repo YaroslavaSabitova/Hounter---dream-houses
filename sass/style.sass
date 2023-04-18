@@ -383,7 +383,7 @@ ul, ol
         color: $color-dark-grey
 
     &:hover
-        border: none
+        border: 1px solid transparent
         background-color: $btn-color-light
         color: $btn-color-dark
 
@@ -455,10 +455,10 @@ ul, ol
             opacity: 0.5
 
     &__button_prev
-        right: 135px
+        right: 240px
 
     &__button_next
-        right: 60px
+        right: 160px
         transform: rotate(180deg)
 
 .slides
@@ -515,7 +515,19 @@ ul, ol
 
 .tour
     position: relative
-    margin-bottom: 120px
+    margin-bottom: 153px
+
+    &::before
+        position: absolute
+        content: ""
+        top: -300px
+        right: -330px
+        background-image: url(../img/background-2.png)
+        background-repeat: no-repeat
+        background-size: 700px
+        width: 700px
+        height: 700px
+        z-index: -1
 
     &__title
         margin-bottom: 16px
