@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?nuit7b');
-  src:  url('fonts/icomoon.eot?nuit7b#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?nuit7b') format('truetype'),
-    url('fonts/icomoon.woff?nuit7b') format('woff'),
-    url('fonts/icomoon.svg?nuit7b#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?adwduq');
+  src:  url('fonts/icomoon.eot?adwduq#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?adwduq') format('truetype'),
+    url('fonts/icomoon.woff?adwduq') format('woff'),
+    url('fonts/icomoon.svg?adwduq#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,36 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-call:before {
+  content: "\e90e";
+}
+.icon-bath:before {
+  content: "\e90a";
+}
+.icon-bed:before {
+  content: "\e90b";
+}
+.icon-car-garage:before {
+  content: "\e90c";
+}
+.icon-stairs-with-handrail:before {
+  content: "\e90d";
+}
+.icon-facebook:before {
+  content: "\e905";
+}
+.icon-instagram:before {
+  content: "\e906";
+}
+.icon-twitter:before {
+  content: "\e907";
+}
+.icon-clock:before {
+  content: "\e908";
+}
+.icon-star:before {
+  content: "\e909";
+}
 .icon-icon-wallet:before {
   content: "\e903";
 }
