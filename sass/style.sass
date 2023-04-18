@@ -343,7 +343,7 @@ ul, ol
             background-color: $pretitle-color
 
 .features
-    margin-bottom: 120px
+    margin-bottom: 155px
 
     &__subtitle,
     &__info
@@ -514,7 +514,7 @@ ul, ol
     max-width: 600px
 
 .tour
-    @include display-between-center
+    position: relative
     margin-bottom: 120px
 
     &__title
@@ -558,7 +558,7 @@ ul, ol
     i
         font-size: 32px
         color: $color-dark-grey
-        margin-right: 20px
+        margin-right: 18px
 
     p
         color: $added-color-dark
@@ -589,3 +589,25 @@ ul, ol
 
     .slide__info_people
         margin-right: 57px
+
+.tour__right
+    position: absolute
+    top: -35px
+    right: 0
+
+    &-list
+        display: flex
+        align-items: flex-end
+        z-index: 1
+        position: absolute
+        bottom: -43px
+        left: -40px
+
+    &-item img
+        border-radius: 4px
+
+.tour__right-item:nth-child(1)
+    margin-right: 12px
+
+.tour__right-item:nth-child(2)
+    margin-right: 8px
