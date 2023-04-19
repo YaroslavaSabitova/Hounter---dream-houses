@@ -44,6 +44,9 @@ $text-shadow: -1px 0 $main-color, 0 1px $main-color, 1px 0 $main-color, 0 -1px $
     padding: 0
     box-sizing: border-box
 
+::-webkit-scrollbar
+    width: 0
+
 html
     font-size: 62.5%
     scroll-behavior: smooth
@@ -53,9 +56,7 @@ body
     font-size: 1.6rem
     font-family: "Lexend", sans-serif
     background-color: $color-white
-
-main
-    // overflow: hidden
+    overflow-x: hidden
 
 img
     height: auto
@@ -367,6 +368,9 @@ ul, ol
     &__navigation
         @include display-between
         width: 55%
+
+    &__item
+        user-select: none
 
 .block-button
     @include display-between-center
