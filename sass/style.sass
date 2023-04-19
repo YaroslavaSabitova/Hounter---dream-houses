@@ -57,6 +57,7 @@ body
     font-family: "Lexend", sans-serif
     background-color: $color-white
     overflow-x: hidden
+    padding-bottom: 1000px
 
 img
     height: auto
@@ -89,11 +90,6 @@ ul, ol
     width: 1200px
     margin: 0 auto
 
-.container-wrapper
-    width: 1320px
-    margin: 0 auto
-    position: relative
-
 .background-wrapper
     position: relative
     margin: 0 auto
@@ -110,6 +106,7 @@ ul, ol
         background-size: 800px
         width: 800px
         height: 800px
+        z-index: -1
 
 .radius
     border-radius: 32px
@@ -197,7 +194,7 @@ ul, ol
         &_img
             position: absolute
             top: 0px
-            right: -60px
+            right: 0px
             z-index: -1
 
     &__title
@@ -275,7 +272,7 @@ ul, ol
         position: absolute
         width: 540px
         height: 114px
-        right: 60px
+        right: 120px
         top: 567px
 
         &_big
@@ -627,3 +624,52 @@ ul, ol
 
 .tour__right-item:nth-child(2)
     margin-right: 8px
+
+// SECTION REVIEWS
+
+.reviews .section__pretitle
+    text-align: center
+    margin-bottom: 12px
+
+    &::before
+        top: -50%
+        left: 50%
+        transform: translate(-50%, -50%)
+
+.reviews
+    margin-bottom: 160px
+
+    &__title
+        text-align: center
+        margin-bottom: 40px
+
+.swiper-container
+    position: relative
+    width: 100%
+    margin: 0 auto
+
+.swiper
+    width: 100%
+    height: 100%
+    overflow: visible
+
+.swiper-slide
+    width: 740px
+    min-width: 740px
+    height: 400px
+    text-align: center
+    font-size: 18px
+    background: #fff
+    display: flex
+    justify-content: center
+    align-items: center
+    user-select: none
+
+.swiper-slide img
+    display: block
+    width: 100%
+    height: 100%
+    object-fit: cover
+
+.swiper-pagination
+    bottom: -40px !important

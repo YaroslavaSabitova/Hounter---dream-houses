@@ -69,3 +69,16 @@ const init = () => {
 };
 
 init();
+
+
+
+const swiper = new Swiper(".mySwiper", {
+  pagination: {
+      clickable: true,    
+      el: ".swiper-pagination",
+  },
+  slidesPerView: "auto",
+  spaceBetween: 56,
+  centeredSlides: true,
+  initialSlide: 1,
+});
