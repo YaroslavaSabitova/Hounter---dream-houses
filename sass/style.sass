@@ -135,6 +135,7 @@ ul, ol
     line-height: 22px
     color: $color-white
     background-color: $btn-color-dark
+    text-transform: capitalize
 
 .list
     display: flex
@@ -306,6 +307,11 @@ ul, ol
     display: flex
     width: 112px
     margin-right: 16px
+
+.people li img
+    border-radius: 50%
+    outline: 3px solid $color-white
+    outline-offset: -3px
 
 .people li:nth-child(2)
     transform: translateX(-27px)
@@ -550,7 +556,6 @@ ul, ol
 
     &__button
         padding: 12px 16.5px
-        text-transform: capitalize
 
         i
             font-size: 24px
@@ -627,9 +632,9 @@ ul, ol
 
 // SECTION REVIEWS
 
-.reviews .section__pretitle
+.pretitle-center
     text-align: center
-    margin-bottom: 12px
+    margin: 0 auto 12px
 
     &::before
         top: -50%
@@ -637,11 +642,65 @@ ul, ol
         transform: translate(-50%, -50%)
 
 .reviews
-    margin-bottom: 160px
+    margin-bottom: 273px
 
     &__title
         text-align: center
         margin-bottom: 40px
+
+    &__info
+        width: 82.75%
+        height: 62.3%
+        background-color: #fff
+        box-shadow: 0px 9px 32px rgba(89, 92, 219, 0.05)
+        border-radius: 16px
+        position: absolute
+        z-index: 1
+        top: 255px
+        padding: 32px
+        text-align: left
+
+    &__subtitle
+        font-weight: 600
+        font-size: 20px
+        line-height: 25px
+        text-transform: capitalize
+        margin-bottom: 16px
+
+    &__text
+        font-size: 14px
+        line-height: 24px
+        opacity: 0.75
+        color: $added-color
+        margin-bottom: 24px
+
+    &__box
+        @include display-between
+        align-items: flex-end
+        width: 85%
+
+    &__rate
+        @include display-between-center
+
+        i
+            color: $pretitle-color
+            margin-right: 16px
+
+        p
+            color: $added-color-dark
+            font-weight: 600
+            font-size: 20px
+            line-height: 28px
+
+.reviews__info .slide__info_people img
+    width: 40px !important
+    height: 40px !important
+    margin-right: 24px
+
+.reviews__info .slide__info_contacts p
+    color: $main-color-dark
+    font-size: 14px
+    line-height: 22px
 
 .swiper-container
     position: relative
@@ -664,12 +723,49 @@ ul, ol
     justify-content: center
     align-items: center
     user-select: none
+    position: relative
 
-.swiper-slide img
-    display: block
-    width: 100%
-    height: 100%
-    object-fit: cover
+    img
+        display: block
+        width: auto !important
+        height: auto !important
+        object-fit: cover
+        border-radius: 8px
 
 .swiper-pagination
-    bottom: -40px !important
+    bottom: -150px !important
+
+.swiper-pagination-bullet
+    background: #E0E3EB !important
+    opacity: 1 !important
+    margin: 0 8px !important
+
+    &-active
+        background: #3C4563 !important
+
+// SECTION FIND
+
+.find
+    margin-bottom: 120px
+    position: relative
+
+    &::before
+        position: absolute
+        content: ""
+        top: -150px
+        left: -360px
+        background-image: url(../img/background-3.png)
+        background-repeat: no-repeat
+        background-size: 700px
+        width: 700px
+        height: 850px
+        z-index: -1
+
+    &__title
+        width: 37%
+        text-align: center
+        margin: 0 auto 24px
+
+    &__button
+        padding: 12px 16.5px
+        margin: 0 auto 40px
