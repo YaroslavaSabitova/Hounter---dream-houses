@@ -58,7 +58,7 @@ body
     font-family: "Lexend", sans-serif
     background-color: $color-white
     overflow-x: hidden
-    padding-bottom: 1000px
+    padding-bottom: 120px
 
 img
     height: auto
@@ -279,8 +279,8 @@ ul, ol
         position: absolute
         width: 540px
         height: 114px
-        right: 120px
-        top: 567px
+        right: 3px
+        top: -60px
 
         &_big
             @include display-align
@@ -553,6 +553,7 @@ ul, ol
 
     &__info
         width: 69%
+        opacity: 0.75
         color: $added-color
 
     &__house
@@ -871,6 +872,7 @@ ul, ol
     height: 312px
     padding: 38px 70px 65px 44px
     background: url(../img/subscribe.jpg) center/cover no-repeat
+    margin-bottom: 120px
 
     &__left,
     &__right
@@ -920,3 +922,80 @@ ul, ol
         top: 4px
         left: 363px
         padding: 12px 16.1px
+
+// FOOTER
+
+.social
+    @include display-between-center
+    width: 47%
+
+    &__icon
+        font-size: 20px
+        color: $added-color-dark
+
+    &__link
+        padding: 10px
+
+.property,
+.article,
+.contact
+    text-transform: capitalize
+
+    &__title
+        color: $main-color-dark
+        font-weight: 600
+        font-size: 18px
+        line-height: 22px
+
+    &__link
+        color: $color-dark-grey
+        font-weight: 400
+        font-size: 14px
+        line-height: 18px
+
+.main-footer .container
+    display: flex
+
+.main-footer
+    position: relative
+
+    &::before
+        position: absolute
+        content: ""
+        right: -290px
+        bottom: -140px
+        background-image: url(../img/background-4.png)
+        background-repeat: no-repeat
+        background-size: 950px
+        width: 950px
+        height: 503px
+        z-index: -1
+
+    &__left,
+    &__right
+        display: flex
+
+    &__left
+        width: 26.5%
+        flex-direction: column
+        margin-right: auto
+
+    &__right
+        width: 51%
+        justify-content: space-between
+
+        &_title
+            margin-bottom: 24px
+
+        &_link
+            margin-bottom: 18px
+
+    &__logo
+        margin-bottom: 16px
+
+    &__info
+        color: $added-color
+        font-size: 14px
+        line-height: 24px
+        opacity: 0.75
+        margin-bottom: 24px
