@@ -35,7 +35,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/icon-font.css">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
 
     <style>
         .swiper-container {
@@ -89,7 +89,7 @@
     </style>
 
 </head>
-<body scroll="no">
+<body>
     <div class="background-wrapper">
         <div class="container">
             <header class="main-header">
@@ -132,8 +132,9 @@
                             Everything you need about finding your place to live will be here, where it will be easier for you
                         </p>
                         <form class="search hero__search" action="#!" method="get">
+                            <i class="icon-location hero__icon"></i>
                             <label for="search">Search for the location you want!</label>
-                            <input class="radius" type="text" id="search" name="search" placeholder="Search for the location you want!">
+                            <input class="radius search" type="text" id="search" name="search" placeholder="Search for the location you want!">
                             <button class="radius btn-dark_green hero__button" type="submit">Search</button>
                         </form>
                         <p class="hero__partnership-info">
@@ -587,7 +588,7 @@
                     See tips and trick from our partnership
                 </p>
                 <h2 class="title find__title">
-                    Find out more about selling and buying homes
+                    Find out more about<br> selling and buying homes
                 </h2>
                 <button class="radius btn-dark_green find__button">
                     More artikel
@@ -674,12 +675,48 @@
                 </div>
             </section>
 
-            
+            <div class="container">
+                <section class="subscribe radius">
+                    <div class="subscribe__left">
+                        <div class="subscribe__imgages">
+                            <img src="img/chair-2.jpg" class="subscrbe__img" width="81" height="81" alt="chair">
+                            <img src="img/people3.png" class="subscrbe__img" width="36" height="36" alt="Dianne Russell">
+                        </div>
+                        <div class="subscribe__imgages">
+                            <img src="img/people5.png" class="subscrbe__img" width="36" height="36" alt="Ronald Richards">
+                            <img src="img/house-4.jpg" class="subscrbe__img" width="54" height="54" alt="house-4">
+                        </div>
+                    </div>
+
+                    <div class="subscribe__center">
+                        <h2 class="title subscribe__title">
+                            Subscribe for more info <br>and update from hounter
+                        </h2>
+                        <form class="search subscribe__search" action="#!" method="get">
+                            <i class="icon-email subscribe__icon"></i>
+                            <label for="email">Your email here</label>
+                            <input class="radius search" type="text" id="email" name="email" placeholder="Your email here">
+                            <button class="radius btn-dark_green subscribe__button" type="submit">Subsribe now</button>
+                        </form>
+                    </div>
+
+                    <div class="subscribe__right">
+                        <div class="subscribe__imgages">
+                            <img src="img/house-5.jpg" class="subscrbe__img" width="70" height="70" alt="house">
+                            <img src="img/people8.jpg" class="subscrbe__img" width="36" height="36" alt="Courtney Henry">
+                        </div>
+                        <div class="subscribe__imgages">
+                            <img src="img/people11.jpg" class="subscrbe__img" width="36" height="36" alt="people">
+                            <img src="img/chair-3.jpg" class="subscrbe__img" width="55" height="55" alt="chair">
+                        </div>
+                    </div>
+                </section>
+            </div>
         </main>
+
+        <footer class="main-footer"></footer>
             
     </div>
-
-    <footer class="main-footer"></footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     
