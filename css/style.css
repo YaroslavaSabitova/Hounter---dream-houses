@@ -1286,16 +1286,21 @@ ul, ol {
 }
 
 /* line 956, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+.contact .contact__item:nth-child(4) .contact__link {
+  text-transform: none;
+}
+
+/* line 959, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .main-footer .container {
   display: flex;
 }
 
-/* line 959, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 962, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .main-footer {
   position: relative;
 }
 
-/* line 962, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 965, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .main-footer::before {
   position: absolute;
   content: "";
@@ -1309,40 +1314,40 @@ ul, ol {
   z-index: -1;
 }
 
-/* line 974, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 977, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .main-footer__left, .main-footer__right {
   display: flex;
 }
 
-/* line 978, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 981, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .main-footer__left {
   width: 26.5%;
   flex-direction: column;
   margin-right: auto;
 }
 
-/* line 983, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 986, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .main-footer__right {
   width: 51%;
   justify-content: space-between;
 }
 
-/* line 987, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 990, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .main-footer__right_title {
   margin-bottom: 24px;
 }
 
-/* line 990, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 993, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .main-footer__right_link {
   margin-bottom: 18px;
 }
 
-/* line 993, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 996, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .main-footer__logo {
   margin-bottom: 16px;
 }
 
-/* line 996, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 999, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .main-footer__info {
   color: #626687;
   font-size: 14px;
