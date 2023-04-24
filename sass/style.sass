@@ -1012,8 +1012,7 @@ ul, ol
 @media (max-width: 1400px)
 
     .background-wrapper
-        width: 100%
-        margin-left: 100px
+        width: 100vw
 
     .container
         width: 1170px
@@ -1032,10 +1031,8 @@ ul, ol
         &__boxes
             right: -25px
 
-    .find__title 
+    .find__title
         width: 37%
-
-// DONE
 
 @media (max-width: 1199px)
 
@@ -1045,54 +1042,166 @@ ul, ol
     html
         font-size: 62%
 
+    .hero__right_img
+        display: none
+
+    .main-nav
+        width: 100%
+
+    .navigation
+        width: 55%
+        margin-right: 6%
+
+    a
+        color: $color-white
+
+    .btn-transparent
+        background-color: $btn-color-dark
+        border: 1px solid $btn-color-dark
+
     .hero
-
-        &__right_img
-            right: -361px
-
-        &__search input
-            width: 50.35%
-
-        &__boxes
-            right: -238px
-
+        &__left,
+        &__title,
+        &__info,
         &__partnership
-            width: 50%
-
-    .features
-
-        &__block
-            width: 95%
-
-        .swiper-button-next
-            right: -239px
-
-        .swiper-button-prev
-            right: -155px
-
-    .tour
-
-        &::before
-            right: -500px
-
-        &__right
-            right: -270px
-
-    .reviews
-        margin-left: 30rem
-
-    .find
-        width: 130%
-        
-        &__title 
             width: 100%
 
+        &__title
+            text-align: center
+
+        &__button
+            left: 848px
+
+        &__search input
+            width: 100%
+
+        &__boxes_big,
+        &__boxes_small
+            border: 1px solid $btn-color-dark
+
+        &__boxes
+            left: 222px
+            top: 30px
+
+    .hero__info,
+    .hero__partnership-info,
+    .tour__info,
+    .reviews__text,
+    .find__subcontainer_text,
+        opacity: 1
+
+    .section__container
+        margin-left: unset
+
+    .features
+        margin-bottom: 7rem
+
+        &__title
+            margin-bottom: 2rem
+
+        &__block
+            flex-wrap: wrap
+            align-items: flex-start
+            flex-direction: column
+
+        &__navigation
+            width: 90%
+            justify-content: space-between
+            margin-bottom: 2rem
+
+        .swiper-button-prev,
+        .swiper-button-next
+            right: 120px
+
+        .swiper-button-prev
+            top: -180px
+
+        .swiper-button-next
+            top: -90px
+
+        .swiper-wrapper
+            margin-left: 200px
+
+    .tour
+        margin-bottom: 7rem
+
+        &::before
+            right: -440px
+            top: -50px
+
+        &__right
+            top: 22px
+            right: 64px
+
+            &_img
+                width: 300px
+
+            &-list
+                bottom: -120px
+                left: -120px
+
+    .reviews
+        margin-bottom: 23.3rem
+
+    .find,
     .subscribe,
     .main-footer
-        width: 130%
+        width: 100%
 
-// DONE
+    .find
+        margin-bottom: 7rem
 
+        &__title
+            width: 100%
+
+        &__left
+            flex-direction: row
+            margin-bottom: 5rem
+
+        &__right
+            width: 100%
+            display: flex
+            align-items: center
+            justify-content: space-between
+
+        &__subcontainer
+            flex-wrap: wrap
+
+            &_title
+                width: 90%
+
+        &__img
+            margin-bottom: 3rem
+
+            &_right
+                width: 26rem
+                height: 14rem
+                margin-bottom: unset
+                margin-right: 2rem
+
+    .find__img:not(:last-child)
+        margin-right: 12rem
+
+    .find__subcontainer:not(:last-child)
+        margin-bottom: unset
+
+    .subscribe
+        &__left,
+        &__right
+            display: none
+
+        &__center
+            width: 100%
+            margin-right: unset
+
+        &__search input
+            width: 100%
+
+        &__button
+            left: 716px
+
+    .main-footer__right
+        width: 71%
 
 @media (max-width: 991px)
 
@@ -1101,6 +1210,33 @@ ul, ol
 
     html
         font-size: 61%
+
+    .hero
+        &__button
+            left: 607px
+
+        &__boxes
+            left: 100px
+
+    .features
+        &__navigation
+            width: 100%
+
+        .swiper-button-prev,
+        .swiper-button-next
+            right: 60px
+
+    .tour__right
+        display: none
+
+    .find__img
+        margin-right: unset
+
+    .find__img:not(:last-child)
+        margin-right: 6rem
+
+    .subscribe__button
+        left: 478px
 
 @media (max-width: 767px)
 
