@@ -94,7 +94,7 @@ ul, ol
 .background-wrapper
     position: relative
     margin: 0 auto
-    max-width: 1440px
+    max-width: 144rem
 
     &::before
         position: absolute
@@ -124,7 +124,7 @@ ul, ol
     line-height: 2.2rem
     border: none
     color: $btn-font-green
-    background-color: #D1FAE5
+    background-color: $btn-color-light
     padding: 12px 24.5px
 
 .btn-dark_green
@@ -443,7 +443,7 @@ ul, ol
         background-color: $color-light-grey-2 !important
 
         svg
-            fill: #3C4563
+            fill: $added-color-dark
 
 .block-button
     @include display-between-center
@@ -661,7 +661,7 @@ ul, ol
     &__info
         width: 82.75%
         height: 62.3%
-        background-color: #fff
+        background-color: $color-white
         box-shadow: 0px 9px 32px rgba(89, 92, 219, 0.05)
         border-radius: 16px
         position: absolute
@@ -730,7 +730,7 @@ ul, ol
             height: 40rem
             text-align: center
             font-size: 1.8rem
-            background: #fff
+            background: $color-white
             user-select: none
             position: relative
 
@@ -745,29 +745,28 @@ ul, ol
             bottom: -150px !important
 
         &-pagination-bullet
-            background: #E0E3EB !important
+            background: $color-light-grey-2 !important
             opacity: 1 !important
             margin: 0 8px !important
 
         &-pagination-bullet-active
-            background: #3C4563 !important
-
+            background: $added-color-dark !important
 
 // SECTION FIND
-
-.find .container
-    @include display-between
-    align-items: flex-start
 
 .find
     margin-bottom: 12rem
     position: relative
 
+    &__subcontainer
+        @include display-between
+        align-items: flex-start
+
     &::before
         position: absolute
         content: ""
         top: -120px
-        left: -250px
+        left: -360px
         background-image: url(../img/background-3.png)
         background-repeat: no-repeat
         background-size: 700px
@@ -778,6 +777,7 @@ ul, ol
     &__title
         text-align: center
         margin: 0 auto 2.4rem
+        width: 36%
 
     &__button
         padding: 12px 16.5px
@@ -897,7 +897,7 @@ ul, ol
 
         img
             border-radius: 24px
-            outline: 2px solid #ffffff
+            outline: 2px solid $color-white
             outline-offset: 0px
 
     &__title
@@ -962,10 +962,8 @@ ul, ol
 .contact .contact__item:nth-child(4) .contact__link
     text-transform: none
 
-.main-footer .container
-    display: flex
-
 .main-footer
+    display: flex
     position: relative
 
     &::before
@@ -1009,37 +1007,113 @@ ul, ol
         opacity: 0.75
         margin-bottom: 2.4rem
 
-
 // MEDIA QUERIES
 
-// @media (max-width: 1199px)
+@media (max-width: 1400px)
 
-//     .container
-//         width: 960px
+    .background-wrapper
+        width: 100%
+        margin-left: 100px
 
-//     html
-//         font-size: 62%
+    .container
+        width: 1170px
 
-// @media (max-width: 991px)
+    .hero
+        &__right_img
+            bottom: -91px
+            right: -145px
 
-//     .container
-//         width: 720px
+        &__title
+            width: 40%
 
-//     html
-//         font-size: 61%
+        &__button
+            left: 370px
 
-// @media (max-width: 767px)
+        &__boxes
+            right: -25px
 
-//     .container
-//         width: 540px
+    .find__title 
+        width: 37%
 
-//     html
-//         font-size: 60%
+// DONE
 
-// @media (max-width: 575px)
+@media (max-width: 1199px)
 
-//     .container
-//         width: 100%
+    .container
+        width: 960px
 
-//     html
-//         font-size: 59%
+    html
+        font-size: 62%
+
+    .hero
+
+        &__right_img
+            right: -361px
+
+        &__search input
+            width: 50.35%
+
+        &__boxes
+            right: -238px
+
+        &__partnership
+            width: 50%
+
+    .features
+
+        &__block
+            width: 95%
+
+        .swiper-button-next
+            right: -239px
+
+        .swiper-button-prev
+            right: -155px
+
+    .tour
+
+        &::before
+            right: -500px
+
+        &__right
+            right: -270px
+
+    .reviews
+        margin-left: 30rem
+
+    .find
+        width: 130%
+        
+        &__title 
+            width: 100%
+
+    .subscribe,
+    .main-footer
+        width: 130%
+
+// DONE
+
+
+@media (max-width: 991px)
+
+    .container
+        width: 720px
+
+    html
+        font-size: 61%
+
+@media (max-width: 767px)
+
+    .container
+        width: 540px
+
+    html
+        font-size: 60%
+
+@media (max-width: 575px)
+
+    .container
+        width: 100%
+
+    html
+        font-size: 59%
