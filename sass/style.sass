@@ -212,7 +212,7 @@ ul, ol
 
         &_img
             position: absolute
-            bottom: -92px
+            bottom: -91px
             right: -117px
             z-index: -1
 
@@ -329,7 +329,6 @@ ul, ol
 .section
 
     &__container
-        // width: 1320px
         margin-left: 4rem
         position: relative
 
@@ -379,6 +378,72 @@ ul, ol
 
     &__item
         user-select: none
+
+    .swiper-container
+        position: relative
+        width: 100%
+        height: 555px
+        margin: 0 auto
+
+    .swiper
+        width: 100%
+        height: 100%
+        overflow: visible !important
+
+        &-slide
+            width: 350px
+            min-width: 350px
+            height: 552px
+            display: flex
+            flex-direction: column
+            align-items: flex-start
+            background: transparent
+            user-select: none
+
+        &-slide .swiper-img
+            border-radius: 24px
+            margin-bottom: 2.4rem
+
+    .swiper-button-prev,
+    .swiper-button-next
+        @include display-align
+        justify-content: center
+        position: absolute
+        top: -70px
+        left: auto
+        width: 6rem
+        height: 5.2rem
+        border: none
+        box-sizing: border-box
+        background-color: $btn-color-dark
+        cursor: pointer
+        z-index: 1
+
+        svg
+            fill: $color-white
+
+        &:hover
+            opacity: 0.7
+        &:active
+            opacity: 0.5
+
+    .swiper-button-next
+        right: 2px
+        transform: rotate(180deg)
+
+    .swiper-button-prev
+        right: 85px
+
+    .swiper-button-prev::after,
+    .swiper-button-next::after
+        display: none !important
+
+    .swiper-button-disabled
+        opacity: 1 !important
+        background-color: $color-light-grey-2 !important
+
+        svg
+            fill: #3C4563
 
 .block-button
     @include display-between-center
@@ -431,95 +496,33 @@ ul, ol
         color: $btn-font-green
         background-color: $btn-color-light
 
-.slider
-    position: relative
-    width: 100%
-    height: 55rem
-    overflow: hidden
-    margin: 0 auto
+.slide__info
+    color: $main-color-dark
+    text-transform: capitalize
+    text-align: left
 
-    &__button
+    &_people
         @include display-align
-        position: absolute
-        top: 0px
-        margin: auto 0
-        justify-content: center
-        width: 6rem
-        height: 5.2rem
-        background-color: $btn-color-dark
-        border: none
-        box-sizing: border-box
-        cursor: pointer
-        z-index: 1
 
-        svg
-            fill: $color-white
+    &_people img
+        margin: 0 1.6rem 0 0
 
-        &:disabled
-            pointer-events: none
-            background-color: $color-light-grey-2
-        &:disabled svg
-            fill: $added-color-dark
+    &_contacts
+        @include display-between
+        align-items: flex-start
+        flex-direction: column
+        font-weight: 500
 
-        &:hover
-            opacity: 0.7
-        &:active
-            opacity: 0.5
+    &_contacts p
+        font-size: 1.8rem
+        line-height: 2.4rem
+        margin-bottom: .4rem
 
-    &__button_prev
-        right: 240px
-
-    &__button_next
-        right: 160px
-        transform: rotate(180deg)
-
-.slides
-    display: flex
-    width: 100%
-    height: 100%
-    padding: 0
-    margin: 0
-    list-style: none
-    transition: transform 300ms ease
-
-.slide
-    width: 29%
-    flex: none
-    display: flex
-    flex-direction: column
-    align-items: flex-start 
-
-    img
-        border-radius: 24px
-        margin-bottom: 2.4rem
-
-    &__info
-        color: $main-color-dark
+    &_contacts span
+        font-size: 1.4rem
+        line-height: 2.2rem
+        color: $color-dark-grey
         text-transform: capitalize
-        text-align: left
-
-        &_people
-            @include display-align
-
-        &_people img
-            margin: 0 1.6rem 0 0
-
-        &_contacts
-            @include display-between
-            align-items: flex-start
-            flex-direction: column
-            font-weight: 500
-
-        &_contacts p
-            font-size: 1.8rem
-            line-height: 2.4rem
-            margin-bottom: .4rem
-
-        &_contacts span
-            font-size: 1.4rem
-            line-height: 2.2rem
-            color: $color-dark-grey
-            text-transform: capitalize
 
 // SECTION TOUR
 
@@ -667,6 +670,16 @@ ul, ol
         padding: 3.3rem
         text-align: left
 
+        .slide__info_people img
+            width: 40px !important
+            height: 40px !important
+            margin-right: 2.4rem
+
+        .slide__info_contacts p
+            color: $main-color-dark
+            font-size: 1.4rem
+            line-height: 2.2rem
+
     &__subtitle
         font-weight: 600
         font-size: 2rem
@@ -699,55 +712,46 @@ ul, ol
             font-size: 2rem
             line-height: 2.8rem
 
-.reviews__info .slide__info_people img
-    width: 40px !important
-    height: 40px !important
-    margin-right: 2.4rem
+    .swiper-container
+        position: relative
+        width: 100%
+        margin: 0 auto
 
-.reviews__info .slide__info_contacts p
-    color: $main-color-dark
-    font-size: 1.4rem
-    line-height: 2.2rem
+    .swiper
+        width: 100%
+        height: 100%
+        overflow: visible !important
 
-.swiper-container
-    position: relative
-    width: 100%
-    margin: 0 auto
+        &-slide
+            @include display-align
+            justify-content: center
+            width: 74rem
+            min-width: 74rem
+            height: 40rem
+            text-align: center
+            font-size: 1.8rem
+            background: #fff
+            user-select: none
+            position: relative
 
-.swiper
-    width: 100%
-    height: 100%
-    overflow: visible
+            img
+                display: block
+                width: auto !important
+                height: auto !important
+                object-fit: cover
+                border-radius: 8px
 
-.swiper-slide
-    @include display-align
-    justify-content: center
-    width: 74rem
-    min-width: 74rem
-    height: 40rem
-    text-align: center
-    font-size: 1.8rem
-    background: #fff
-    user-select: none
-    position: relative
+        &-pagination
+            bottom: -150px !important
 
-    img
-        display: block
-        width: auto !important
-        height: auto !important
-        object-fit: cover
-        border-radius: 8px
+        &-pagination-bullet
+            background: #E0E3EB !important
+            opacity: 1 !important
+            margin: 0 8px !important
 
-.swiper-pagination
-    bottom: -150px !important
+        &-pagination-bullet-active
+            background: #3C4563 !important
 
-.swiper-pagination-bullet
-    background: #E0E3EB !important
-    opacity: 1 !important
-    margin: 0 8px !important
-
-    &-active
-        background: #3C4563 !important
 
 // SECTION FIND
 
@@ -1006,8 +1010,6 @@ ul, ol
         margin-bottom: 2.4rem
 
 
-
-
 // MEDIA QUERIES
 
 // @media (max-width: 1199px)
@@ -1018,8 +1020,6 @@ ul, ol
 //     html
 //         font-size: 62%
 
-
-
 // @media (max-width: 991px)
 
 //     .container
@@ -1028,9 +1028,6 @@ ul, ol
 //     html
 //         font-size: 61%
 
-
-
-
 // @media (max-width: 767px)
 
 //     .container
@@ -1038,9 +1035,6 @@ ul, ol
 
 //     html
 //         font-size: 60%
-
-
-
 
 // @media (max-width: 575px)
 
