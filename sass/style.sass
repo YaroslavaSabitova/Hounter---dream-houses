@@ -1007,12 +1007,16 @@ ul, ol
         opacity: 0.75
         margin-bottom: 2.4rem
 
+.hamburger,
+.mobile-menu
+    display: none
+
 // MEDIA QUERIES
 
 @media (max-width: 1400px)
 
     .background-wrapper
-        width: 100vw
+        width: 90vw
 
     .container
         width: 1170px
@@ -1065,6 +1069,9 @@ ul, ol
         &__info,
         &__partnership
             width: 100%
+
+        &__partnership
+            justify-content: space-around
 
         &__title
             text-align: center
@@ -1238,7 +1245,6 @@ ul, ol
     .subscribe__button
         left: 478px
 
-
 @media (max-width: 767px)
 
     .container
@@ -1247,10 +1253,290 @@ ul, ol
     html
         font-size: 60%
 
+    .main-nav
+        width: 80%
+
+    .btn-light_green
+        border: 1px solid $btn-font-green
+
+    .navigation
+        display: none
+
+    .mobile-menu
+        display: flex
+        position: fixed
+        top: 0
+        right: -100%
+        height: 100vh
+        width: 60%
+        background: rgba($btn-font-green, 0.9)
+        z-index: 10
+        transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1)
+
+        &__list
+            width: 100%
+            height: 100%
+            display: flex
+            flex-wrap: wrap
+            flex-direction: column
+            justify-content: space-evenly
+            align-items: center
+
+        a
+            color: $color-white
+            font-size: 25px
+            font-weight: 500
+
+    .mobile-menu_active
+        right: 0px
+        width: 90%
+
+    .hamburger
+        position: fixed
+        top: 55px
+        left: 650px
+        width: 30px
+        height: 15px
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+        z-index: 20
+
+        span
+            height: 2px
+            width: 100%
+            background: black
+            transition: 1s all
+            display: block
+
+    .hamburger_active
+        height: 4px
+
+        span
+            &:nth-child(1)
+                transform: translateY(5px) rotate(-45deg)
+            &:nth-child(2)
+                display: none
+            &:nth-child(3)
+                transform: translateY(3px) rotate(45deg)
+
+    .hero
+        &__button
+            left: 429px
+
+        &__boxes
+            left: 5px
+
+    .features .swiper-wrapper
+        margin-left: 330px
+
+    .reviews
+        margin-bottom: 42rem
+
+        .swiper-slide
+            height: 15rem
+
+        .swiper-slide img
+            width: 300px !important
+
+        .slide__info_people img
+            width: 40px !important
+
+        .swiper-pagination
+            bottom: -355px !important
+
+        &__info
+            width: 50%
+            height: 210%
+            top: 150px
+
+    .find
+        margin-bottom: 5rem
+
+        &__left
+            width: 60%
+            flex-wrap: wrap
+            margin-right: unset
+
+        &__subcontainer
+            justify-content: center
+
+        &__subcontainer:not(:last-child)
+            margin-bottom: 3rem
+
+        &__subcontainer_title
+            width: 100%
+
+        &__img
+            width: 300px
+
+        &__img:not(:last-child)
+            margin-right: unset
+
+        &__right
+            flex-direction: column
+
+        &__img_right
+            width: 300px
+            margin-right: unset
+            margin-bottom: 3rem
+
+        &__right &__subcontainer_info
+            width: 60%
+
+    .subscribe
+        margin-bottom: 5rem
+
+        &__button
+            left: 302px
+
+    .main-footer
+        flex-direction: column
+        flex-wrap: wrap
+
+        &__left,
+        &__right
+            width: 90%
+
+        &__left
+            margin-bottom: 3rem
+
+    .social
+        width: 90%
+        justify-content: space-around
+
 @media (max-width: 575px)
+
+    .background-wrapper
+        width: 80vw
 
     .container
         width: 100%
 
     html
         font-size: 59%
+
+    .main-header
+        padding-top: 7rem
+
+    .hamburger
+        top: 20px
+        left: 240px
+
+    .main-nav
+        width: 100%
+        margin-bottom: 3rem
+
+    .hero
+        &__search input
+            width: 240px
+
+        &__button
+            left: 130px
+
+        &__partnership
+            height: 180px
+            flex-wrap: wrap
+            flex-direction: column
+
+        &__boxes
+            flex-direction: column
+            top: 0
+
+            &_big,
+            &_small
+                border: none
+                padding: unset
+
+            &_big
+                margin-bottom: 3rem
+
+    form input::placeholder
+        color: transparent
+
+    .features
+        margin-bottom: 5rem
+
+        &__navigation
+            flex-direction: column
+
+        &__item
+            width: 200px
+
+        &__item:not(:last-child)
+            margin-bottom: 3rem
+
+        .swiper-img
+            width: 200px
+
+        .swiper-slide
+            margin-right: -120px !important
+
+        .swiper-wrapper
+            margin-left: 0px
+
+        .swiper-button-prev,
+        .swiper-button-next
+            right: 0
+            left: 220px
+
+        .swiper-container
+            height: 400px
+
+        .img__button
+            top: 165px
+
+    .tour__info
+        width: 100%
+
+    .tour__button
+        padding: 5px
+
+        i
+            margin-right: 0px
+
+    .house__contacts .slide__info_people
+        margin-right: 0
+
+    .find
+
+        &__left
+            width: 90%
+            margin-right: 0px
+
+        &__img
+            width: 180px
+
+        &__subcontainer
+            flex-direction: column
+
+        &__right .find__subcontainer_info
+            width: 90%
+
+    .subscribe
+        height: 20.2rem
+        
+        &__title
+            display: none
+
+        &__button
+            left: 0px
+            top: 100px
+
+        &__center
+            position: relative
+
+        form
+            position: absolute
+            top: -104px
+            width: 200px
+            left: -20px
+
+    .property__link,
+    .article__link,
+    .contact__link,
+    .property__title,
+    .article__title,
+    .contact__title
+        font-size: 1rem
+        line-height: 1rem
