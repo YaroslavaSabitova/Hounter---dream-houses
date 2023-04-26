@@ -1016,8 +1016,7 @@ ul, ol
 @media (max-width: 1400px)
 
     .background-wrapper
-        width: 100vw
-        overflow: hidden
+        width: 90vw
 
     .container
         width: 1170px
@@ -1154,7 +1153,8 @@ ul, ol
     .find,
     .subscribe,
     .main-footer
-        width: 100%
+        width: 90%
+        margin: 0 auto
 
     .find
         margin-bottom: 7rem
@@ -1194,6 +1194,8 @@ ul, ol
         margin-bottom: unset
 
     .subscribe
+        margin: 0 auto 20px 
+        
         &__left,
         &__right
             display: none
@@ -1206,7 +1208,7 @@ ul, ol
             width: 100%
 
         &__button
-            left: 716px
+            left: 618px
 
     .main-footer__right
         width: 71%
@@ -1243,10 +1245,19 @@ ul, ol
     .find__img:not(:last-child)
         margin-right: 6rem
 
-    .subscribe__button
-        left: 478px
+    .subscribe
+        margin: 0 auto 20px
+
+        &__button
+            left: 405px
 
 @media (max-width: 767px)
+
+    body
+        padding-bottom: 0
+
+    .background-wrapper
+        overflow: hidden
 
     .container
         width: 540px
@@ -1411,9 +1422,6 @@ ul, ol
 
 @media (max-width: 575px)
 
-    .background-wrapper
-        width: 80vw
-
     .container
         width: 100%
 
@@ -1510,10 +1518,10 @@ ul, ol
             height: 360px
 
         .swiper-wrapper
-            margin-left: 15px !important
+            margin-left: 0px !important
 
         .swiper-slide
-            margin-right: 80px !important
+            margin-right: -125px !important
 
         .swiper-pagination
             bottom: -425px !important
