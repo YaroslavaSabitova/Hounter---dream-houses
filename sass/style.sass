@@ -1016,7 +1016,8 @@ ul, ol
 @media (max-width: 1400px)
 
     .background-wrapper
-        width: 90vw
+        width: 100vw
+        overflow: hidden
 
     .container
         width: 1170px
@@ -1291,7 +1292,7 @@ ul, ol
         width: 30%
 
     .hamburger
-        position: fixed 
+        position: fixed
         top: 55px
         left: 650px
         width: 30px
@@ -1334,7 +1335,10 @@ ul, ol
 
         .swiper-slide
             height: 15rem
-            margin-right: -183px !important
+            margin-right: 40px !important
+
+        .swiper-wrapper
+            margin-left: 10px !important
 
         .swiper-slide img
             width: 300px !important
@@ -1497,6 +1501,22 @@ ul, ol
 
     .house__contacts .slide__info_people
         margin-right: 0
+
+    .reviews
+        margin-bottom: 50rem
+
+        &__info
+            width: 300px
+            height: 360px
+
+        .swiper-wrapper
+            margin-left: 15px !important
+
+        .swiper-slide
+            margin-right: 80px !important
+
+        .swiper-pagination
+            bottom: -425px !important
 
     .find
 
