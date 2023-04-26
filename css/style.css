@@ -1681,7 +1681,7 @@ ul, ol {
     position: fixed;
     top: 0;
     left: -100%;
-    height: 200vh;
+    height: 100vh;
     background: rgba(4, 120, 87, 0.9);
     z-index: 10;
     transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
@@ -1709,7 +1709,7 @@ ul, ol {
   }
   /* line 1293, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hamburger {
-    position: fixed !important;
+    position: fixed;
     top: 55px;
     left: 650px;
     width: 30px;
@@ -1730,39 +1730,39 @@ ul, ol {
   /* line 1311, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hamburger_active {
     height: 4px;
-    position: fixed !important;
   }
-  /* line 1316, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1315, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hamburger_active span:nth-child(1) {
     transform: translateY(5px) rotate(-45deg);
   }
-  /* line 1318, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1317, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hamburger_active span:nth-child(2) {
     display: none;
   }
-  /* line 1320, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1319, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hamburger_active span:nth-child(3) {
     transform: translateY(3px) rotate(45deg);
   }
-  /* line 1324, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1323, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hero__button {
     left: 429px;
   }
-  /* line 1327, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1326, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hero__boxes {
     left: 5px;
   }
-  /* line 1330, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1329, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .features .swiper-wrapper {
     margin-left: 330px;
   }
-  /* line 1333, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1332, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .reviews {
     margin-bottom: 42rem;
   }
-  /* line 1336, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1335, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .reviews .swiper-slide {
     height: 15rem;
+    margin-right: -183px !important;
   }
   /* line 1339, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .reviews .swiper-slide img {
