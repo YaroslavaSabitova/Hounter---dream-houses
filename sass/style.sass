@@ -1151,7 +1151,6 @@ ul, ol
         margin-bottom: 23.3rem
 
     .find,
-    .subscribe,
     .main-footer
         width: 90%
         margin: 0 auto
@@ -1194,8 +1193,9 @@ ul, ol
         margin-bottom: unset
 
     .subscribe
-        margin: 0 auto 20px 
-        
+        width: 90%
+        margin: 0 auto 20px
+
         &__left,
         &__right
             display: none
@@ -1245,11 +1245,16 @@ ul, ol
     .find__img:not(:last-child)
         margin-right: 6rem
 
-    .subscribe
-        margin: 0 auto 20px
+    .subscribe__button
+        left: 405px
 
-        &__button
-            left: 405px
+    .main-footer
+
+        &__left
+            margin-right: 30px
+
+        &__right ul:not(:last-child)
+            margin-right: 30px
 
 @media (max-width: 767px)
 
@@ -1257,6 +1262,7 @@ ul, ol
         padding-bottom: 0
 
     .background-wrapper
+        width: 100%
         overflow: hidden
 
     .container
@@ -1300,7 +1306,7 @@ ul, ol
 
     .mobile-menu_active
         left: 0px
-        width: 30%
+        width: 40%
 
     .hamburger
         position: fixed
@@ -1345,14 +1351,9 @@ ul, ol
         margin-bottom: 42rem
 
         .swiper-slide
-            height: 15rem
-            margin-right: 40px !important
-
-        .swiper-wrapper
-            margin-left: 10px !important
-
-        .swiper-slide img
-            width: 300px !important
+            height: 16rem
+            img
+                width: 300px !important
 
         .slide__info_people img
             width: 40px !important
@@ -1362,7 +1363,7 @@ ul, ol
 
         &__info
             width: 50%
-            height: 210%
+            height: 300px
             top: 150px
 
     .find
@@ -1403,7 +1404,7 @@ ul, ol
         margin-bottom: 5rem
 
         &__button
-            left: 302px
+            left: 247px
 
     .main-footer
         flex-direction: column
@@ -1417,8 +1418,7 @@ ul, ol
             margin-bottom: 3rem
 
     .social
-        width: 90%
-        justify-content: space-around
+        width: 65%
 
 @media (max-width: 575px)
 
@@ -1431,20 +1431,35 @@ ul, ol
     .main-header
         padding-top: 7rem
 
-    .hamburger
-        top: 20px
-        left: 240px
-
     .main-nav
-        width: 100%
+        width: 90%
+        justify-content: space-around
         margin-bottom: 3rem
 
+        &__logo
+            margin-right: unset
+
+    .hamburger
+        top: 20px
+        left: 280px
+
     .hero
+        width: 90%
+        margin-bottom: 23rem
+
+        &__title,
+        &__info,
+        &__search,
+        &__partnership,
+        &__partnership-info,
+            width: 90%
+            margin: 0 auto 3rem
+
         &__search input
-            width: 240px
+            width: 280px
 
         &__button
-            left: 130px
+            left: 169px
 
         &__partnership
             height: 180px
@@ -1454,6 +1469,7 @@ ul, ol
         &__boxes
             flex-direction: column
             top: 0
+            left: 20px
 
             &_big,
             &_small
@@ -1469,7 +1485,15 @@ ul, ol
     .features
         margin-bottom: 5rem
 
+        &__title,
+        &__navigation,
+            margin: 0 auto 3rem
+
+        &__title
+            text-align: center
+
         &__navigation
+            width: 90%
             flex-direction: column
 
         &__item
@@ -1490,7 +1514,13 @@ ul, ol
         .swiper-button-prev,
         .swiper-button-next
             right: 0
-            left: 220px
+            left: 240px
+
+        .swiper-button-next
+            top: -94px
+
+        .swiper-button-prev
+            top: -171px
 
         .swiper-container
             height: 400px
@@ -1498,17 +1528,30 @@ ul, ol
         .img__button
             top: 165px
 
-    .tour__info
-        width: 100%
+    .tour
+        margin-bottom: 5rem
 
-    .tour__button
-        padding: 5px
+        &__title
+            text-align: center
+            margin: 0 auto 3rem
 
-        i
-            margin-right: 0px
+        &__left,
+        &__info
+            width: 90%
+            margin: 0 auto 3rem
 
-    .house__contacts .slide__info_people
-        margin-right: 0
+        &__button
+            padding: 5px
+
+            i
+                margin-right: 0px
+
+    .house__contacts
+        align-items: flex-start
+        flex-direction: column
+
+        .slide__info_people
+            margin: 0 0 2rem 0
 
     .reviews
         margin-bottom: 50rem
@@ -1517,14 +1560,13 @@ ul, ol
             width: 300px
             height: 360px
 
-        .swiper-wrapper
-            margin-left: 0px !important
-
-        .swiper-slide
-            margin-right: -125px !important
-
         .swiper-pagination
             bottom: -425px !important
+
+            &-bullet
+                width: 15px !important
+                height: 15px !important
+                margin: 0 30px !important
 
     .find
 
@@ -1549,16 +1591,15 @@ ul, ol
 
         &__button
             left: 0px
-            top: 100px
+            top: 85px
 
         &__center
             position: relative
+            margin-top: unset
 
         form
-            position: absolute
-            top: -104px
-            width: 200px
-            left: -20px
+            top: 0px
+            width: 100%
 
     .property__link,
     .article__link,
