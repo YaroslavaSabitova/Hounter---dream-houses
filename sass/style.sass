@@ -38,6 +38,30 @@ $text-shadow: -1px 0 $main-color, 0 1px $main-color, 1px 0 $main-color, 0 -1px $
     justify-content: space-between
     align-items: center
 
+@mixin font14-line18
+    font-size: 1.4rem
+    line-height: 1.8rem
+
+@mixin font14-line22
+    font-size: 1.4rem
+    line-height: 2.2rem
+
+@mixin font14-line24
+    font-size: 1.4rem
+    line-height: 2.4rem
+
+@mixin font16-line24
+    font-size: 1.6rem
+    line-height: 2.4rem
+
+@mixin font16-line28
+    font-size: 1.6rem
+    line-height: 2.8rem
+
+@mixin content-position
+    content: ""
+    position: absolute
+
 // COMMON STYLES 
 
 *, ::after, ::before
@@ -68,10 +92,9 @@ h1, h2, h3, h4
     margin: 0
 
 a
+    @include font14-line18
     color: $color-light-grey
     font-weight: 600
-    font-size: 1.4rem
-    line-height: 1.8rem
     text-decoration: none
     transition: .3s
 
@@ -80,8 +103,7 @@ button
     cursor: pointer
 
 p
-    font-size: 1.6rem
-    line-height: 2.8rem
+    @include font16-line28
     text-transform: none
 
 ul, ol
@@ -97,8 +119,7 @@ ul, ol
     max-width: 144rem
 
     &::before
-        position: absolute
-        content: ""
+        @include content-position
         top: -230px
         left: -140px
         background-image: url(../img/background-1.png)
@@ -115,13 +136,12 @@ ul, ol
 .btn-transparent
     display: inline-block
     padding: 7.5px 16.5px
-    background-color: rgba(255, 255, 255, 0.1)
-    border: 1px solid rgba(255, 255, 255, 0.3)
+    background-color: rgba($color-white, 0.1)
+    border: 1px solid rgba($color-white, 0.3)
 
 .btn-light_green
+    @include font14-line22
     font-weight: 600
-    font-size: 1.4rem
-    line-height: 2.2rem
     border: none
     color: $btn-font-green
     background-color: $btn-color-light
@@ -129,11 +149,10 @@ ul, ol
 
 .btn-dark_green
     @include display-align
+    @include font14-line22
+    font-weight: 600
     border: none
     padding: 13px 21.5px
-    font-size: 1.4rem
-    font-weight: 600
-    line-height: 2.2rem
     color: $color-white
     background-color: $btn-color-dark
     text-transform: capitalize
@@ -188,10 +207,9 @@ ul, ol
 // SECTION HERO
 
 .search
+    @include font14-line22
     color: $color-dark-grey
     font-weight: 500
-    font-size: 1.4rem
-    line-height: 2.2rem
 
     input:focus
         outline: none
@@ -295,10 +313,9 @@ ul, ol
                 margin-right: 1.6rem
 
         p
+            @include font16-line24
             color: $main-color
             font-weight: 600
-            font-size: 1.6rem
-            line-height: 2.4rem
             text-transform: capitalize
             margin-bottom: 2px
 
@@ -333,17 +350,15 @@ ul, ol
         position: relative
 
     &__pretitle
+        @include font14-line18
         color: $pretitle-color
         font-weight: 500
-        font-size: 1.4rem
-        line-height: 1.8rem
         text-transform: capitalize
         position: relative
         margin: 0 0 1.2rem 4rem
 
         &::before
-            position: absolute
-            content: ""
+            @include content-position
             width: 32px
             height: 1px
             top: 8px
@@ -469,14 +484,13 @@ ul, ol
 
 .img__button
     @include display-align
+    @include font14-line18
+    font-weight: 500
+    text-transform: capitalize
     position: absolute
     top: 335px
     margin-left: 16px
     padding: 8px 15px
-    font-weight: 500
-    font-size: 1.4rem
-    line-height: 1.8rem
-    text-transform: capitalize
 
     i
         margin-right: 12px
@@ -519,8 +533,7 @@ ul, ol
         margin-bottom: .4rem
 
     &_contacts span
-        font-size: 1.4rem
-        line-height: 2.2rem
+        @include font14-line22
         color: $color-dark-grey
         text-transform: capitalize
 
@@ -534,8 +547,7 @@ ul, ol
     margin-bottom: 15.3rem
 
     &::before
-        position: absolute
-        content: ""
+        @include content-position
         top: -300px
         right: -330px
         background-image: url(../img/background-2.png)
@@ -550,8 +562,7 @@ ul, ol
 
     &__info,
     &__house
-        font-size: 1.6rem
-        line-height: 2.8rem
+        @include font16-line28
         margin-bottom: 1.6rem
 
     &__info
@@ -596,8 +607,7 @@ ul, ol
         text-transform: capitalize
 
     &::before
-        position: absolute
-        content: ""
+        @include content-position
         bottom: -35px
         width: 440px
         height: 2px
@@ -607,9 +617,8 @@ ul, ol
     margin-right: 2.4rem
 
 .tour__left .slide__info_people span
+    @include font16-line24
     font-weight: 500
-    font-size: 1.6rem
-    line-height: 2.4rem
 
 .house__contacts
     display: flex
@@ -676,9 +685,8 @@ ul, ol
             margin-right: 2.4rem
 
         .slide__info_contacts p
+            @include font14-line22
             color: $main-color-dark
-            font-size: 1.4rem
-            line-height: 2.2rem
 
     &__subtitle
         font-weight: 600
@@ -688,8 +696,7 @@ ul, ol
         margin-bottom: 1.6rem
 
     &__text
-        font-size: 1.4rem
-        line-height: 2.4rem
+        @include font14-line24
         opacity: 0.75
         color: $added-color
         margin-bottom: 2.4rem
@@ -763,8 +770,7 @@ ul, ol
         align-items: flex-start
 
     &::before
-        position: absolute
-        content: ""
+        @include content-position
         top: -120px
         left: -360px
         background-image: url(../img/background-3.png)
@@ -815,8 +821,7 @@ ul, ol
             margin-bottom: 1.6rem
 
         &_text
-            font-size: 1.4rem
-            line-height: 2.4rem
+            @include font14-line24
             color: $added-color
             opacity: 0.75
             margin-bottom: 1.6rem
@@ -825,18 +830,16 @@ ul, ol
             @include display-align
 
             p
-                font-size: 1.4rem
-                line-height: 2.4rem
+                @include font14-line24
                 color: $color-dark-grey
 
 .find__subcontainer_info .slide__info_people
     margin-bottom: 1.2rem
 
 .find__subcontainer_info .slide__info_people p
+    @include font14-line22
     color: $added-color-dark
     font-weight: 400
-    font-size: 1.4rem
-    line-height: 2.2rem
 
 .find__right .find__subcontainer_title
     font-size: 2.4rem
@@ -954,10 +957,9 @@ ul, ol
         line-height: 2.2rem
 
     &__link
+        @include font14-line18
         color: $color-dark-grey
         font-weight: 400
-        font-size: 1.4rem
-        line-height: 1.8rem
 
 .contact .contact__item:nth-child(4) .contact__link
     text-transform: none
@@ -967,8 +969,7 @@ ul, ol
     position: relative
 
     &::before
-        position: absolute
-        content: ""
+        @include content-position
         right: -290px
         bottom: -140px
         background-image: url(../img/background-4.png)
@@ -1001,9 +1002,8 @@ ul, ol
         margin-bottom: 1.6rem
 
     &__info
+        @include font14-line24
         color: $added-color
-        font-size: 1.4rem
-        line-height: 2.4rem
         opacity: 0.75
         margin-bottom: 2.4rem
 
@@ -1262,15 +1262,13 @@ ul, ol
     .background-wrapper
         width: 100%
         overflow: hidden
+        padding: 0 10px
 
     .container
         width: 540px
 
     html
         font-size: 60%
-
-    .main-nav
-        width: 80%
 
     .btn-light_green
         border: 1px solid $btn-font-green
@@ -1310,7 +1308,7 @@ ul, ol
         flex-direction: column
         position: fixed
         top: 55px
-        left: 650px
+        right: 44px
         width: 30px
         height: 15px
         z-index: 20
@@ -1341,7 +1339,7 @@ ul, ol
             left: 5px
 
     .features .swiper-wrapper
-        margin-left: 330px
+        margin-left: 290px
 
     .reviews
         margin-bottom: 42rem
@@ -1370,12 +1368,13 @@ ul, ol
             width: 60%
             flex-wrap: wrap
             margin-right: unset
+            margin-bottom: 7rem
 
         &__subcontainer
             justify-content: center
 
         &__subcontainer:not(:last-child)
-            margin-bottom: 3rem
+            margin-bottom: 7rem
 
         &__subcontainer_title
             width: 100%
@@ -1427,6 +1426,7 @@ ul, ol
 
     .title
         width: 90%
+        font-size: 3rem
         text-align: center
         margin: 0 auto 3rem
 
@@ -1443,7 +1443,6 @@ ul, ol
 
     .hamburger
         top: 20px
-        left: 280px
 
     .hero
         width: 90%
@@ -1452,33 +1451,43 @@ ul, ol
         &__info,
         &__search,
         &__partnership,
-        &__partnership-info,
             width: 90%
             margin: 0 auto 3rem
 
+        &__partnership-info
+            width: 90%
+
         &__search input
-            width: 280px
+            width: 300px
 
         &__button
-            left: 169px
+            left: 190px
 
         &__partnership
             height: 180px
             flex-wrap: wrap
+            align-items: center
             flex-direction: column
 
         &__boxes
+            width: 300px
+            align-items: center
             flex-direction: column
             top: 0
             left: 20px
 
             &_big,
             &_small
+                width: 300px
                 border: none
                 padding: unset
 
             &_big
+                justify-content: space-between
                 margin-bottom: 3rem
+
+            &_small
+                justify-content: space-around
 
     form input::placeholder
         color: transparent
@@ -1504,7 +1513,7 @@ ul, ol
             margin-right: -120px !important
 
         .swiper-wrapper
-            margin-left: 0px
+            margin-left: -20px
 
         .swiper-button-prev,
         .swiper-button-next
@@ -1523,8 +1532,28 @@ ul, ol
         .img__button
             top: 165px
 
+    .house__details
+        width: 80%
+        align-items: stretch
+        margin: 0 auto 6rem
+        p
+            font-size: 1.2rem
+
+    .house__contacts
+        align-items: center
+        flex-direction: column
+
+        .slide__info_people
+            margin: 0 0 2rem 0
+
+    .pretitle-center
+        margin: 0 auto 2rem
+
     .tour
         margin-bottom: 5rem
+
+        &__house
+            text-align: center
 
         &__left,
         &__info
@@ -1536,13 +1565,6 @@ ul, ol
 
             i
                 margin-right: 0px
-
-    .house__contacts
-        align-items: flex-start
-        flex-direction: column
-
-        .slide__info_people
-            margin: 0 0 2rem 0
 
     .reviews
         margin-bottom: 50rem
@@ -1600,5 +1622,3 @@ ul, ol
     .contact__title
         font-size: 1rem
         line-height: 1rem
-    
-
