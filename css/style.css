@@ -1,23 +1,23 @@
 @charset "UTF-8";
-/* line 67, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 69, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 *, ::after, ::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* line 72, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 74, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 ::-webkit-scrollbar {
   width: 0;
 }
 
-/* line 75, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 77, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
 }
 
-/* line 79, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 81, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 body {
   color: #1B1C57;
   font-size: 1.6rem;
@@ -27,18 +27,18 @@ body {
   padding-bottom: 12rem;
 }
 
-/* line 87, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 89, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 img {
   height: auto;
   display: block;
 }
 
-/* line 91, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 93, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 h1, h2, h3, h4 {
   margin: 0;
 }
 
-/* line 94, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 96, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 a {
   font-size: 1.4rem;
   line-height: 1.8rem;
@@ -48,38 +48,38 @@ a {
   transition: .3s;
 }
 
-/* line 101, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 103, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 a,
 button {
   cursor: pointer;
 }
 
-/* line 105, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 107, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 p {
   font-size: 1.6rem;
   line-height: 2.8rem;
   text-transform: none;
 }
 
-/* line 109, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 111, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 ul, ol {
   list-style: none;
 }
 
-/* line 112, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 114, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .container {
   width: 1200px;
   margin: 0 auto;
 }
 
-/* line 116, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 118, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .background-wrapper {
   position: relative;
   margin: 0 auto;
   max-width: 144rem;
 }
 
-/* line 121, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 123, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .background-wrapper::before {
   content: "";
   position: absolute;
@@ -94,12 +94,12 @@ ul, ol {
   z-index: -1;
 }
 
-/* line 133, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 135, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .radius {
   border-radius: 32px;
 }
 
-/* line 136, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 138, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .btn-transparent {
   display: inline-block;
   padding: 7.5px 16.5px;
@@ -107,7 +107,7 @@ ul, ol {
   border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
-/* line 142, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 144, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .btn-light_green {
   font-size: 1.4rem;
   line-height: 2.2rem;
@@ -118,7 +118,7 @@ ul, ol {
   padding: 12px 24.5px;
 }
 
-/* line 150, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 152, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .btn-dark_green {
   display: flex;
   align-items: center;
@@ -132,12 +132,12 @@ ul, ol {
   text-transform: capitalize;
 }
 
-/* line 160, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 162, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .list {
   display: flex;
 }
 
-/* line 163, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 165, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .list::after {
   content: "";
   background: url(../icon/arrow.svg) center/cover no-repeat;
@@ -146,7 +146,7 @@ ul, ol {
   margin-left: 1rem;
 }
 
-/* line 170, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 172, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -160,7 +160,7 @@ ul, ol {
   overflow: hidden;
 }
 
-/* line 182, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 184, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .title {
   font-weight: 600;
   font-size: 3.2rem;
@@ -168,12 +168,12 @@ ul, ol {
   text-transform: capitalize;
 }
 
-/* line 190, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 192, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .main-header {
   padding-top: 4rem;
 }
 
-/* line 193, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 195, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .main-nav {
   display: flex;
   justify-content: space-between;
@@ -183,12 +183,12 @@ ul, ol {
   margin-bottom: 9.6rem;
 }
 
-/* line 199, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 201, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .main-nav__logo {
   margin-right: auto;
 }
 
-/* line 202, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 204, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .navigation {
   display: flex;
   justify-content: space-between;
@@ -197,7 +197,7 @@ ul, ol {
   margin-right: 4%;
 }
 
-/* line 209, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 211, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .search {
   font-size: 1.4rem;
   line-height: 2.2rem;
@@ -205,34 +205,34 @@ ul, ol {
   font-weight: 500;
 }
 
-/* line 214, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 216, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .search input:focus {
   outline: none;
 }
 
-/* line 217, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 219, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .search label {
   position: absolute;
   clip: rect(0 0 0 0);
 }
 
-/* line 221, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 223, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .icon-location {
   color: #F59E0B;
 }
 
-/* line 224, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 226, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .hero {
   margin-bottom: 21rem;
 }
 
-/* line 227, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 229, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .hero__right {
   position: relative;
   border-radius: 0px 0px 0px 80px;
 }
 
-/* line 231, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 233, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .hero__right_img {
   position: absolute;
   bottom: -91px;
@@ -240,7 +240,7 @@ ul, ol {
   z-index: -1;
 }
 
-/* line 237, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 239, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .hero__title {
   width: 30%;
   font-size: 4rem;
@@ -251,12 +251,12 @@ ul, ol {
   margin-bottom: 2.4rem;
 }
 
-/* line 246, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 248, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .hero__title span {
   color: #ffffff;
 }
 
-/* line 249, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 251, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .hero__info {
   width: 39%;
   color: #626687;
@@ -264,13 +264,13 @@ ul, ol {
   margin-bottom: 3.2rem;
 }
 
-/* line 255, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 257, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .hero__search {
   position: relative;
   margin-bottom: 3.2rem;
 }
 
-/* line 259, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 261, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .hero__search i {
   display: block;
   position: absolute;
@@ -279,21 +279,21 @@ ul, ol {
   font-size: 2.2rem;
 }
 
-/* line 266, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 268, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .hero__search input {
   width: 41.35%;
   padding: 16.2px 65px;
   border: 1px solid #E0E3EB;
 }
 
-/* line 271, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 273, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .hero__button {
   position: absolute;
   top: 4px;
   left: 382px;
 }
 
-/* line 276, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 278, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .hero__button::after {
   content: "";
   background: url(../icon/arrow_slider.svg) center/cover no-repeat;
@@ -303,14 +303,14 @@ ul, ol {
   margin-left: 1.1rem;
 }
 
-/* line 284, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 286, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .hero__partnership {
   display: flex;
   justify-content: space-between;
   width: 36%;
 }
 
-/* line 288, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 290, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .hero__partnership-info {
   color: #888B97;
   font-size: 1.6rem;
@@ -318,7 +318,7 @@ ul, ol {
   text-transform: capitalize;
 }
 
-/* line 294, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 296, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .hero__boxes {
   display: flex;
   justify-content: space-between;
@@ -329,7 +329,7 @@ ul, ol {
   top: -60px;
 }
 
-/* line 302, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 304, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .hero__boxes_big {
   display: flex;
   align-items: center;
@@ -337,7 +337,7 @@ ul, ol {
   background-color: #ffffff;
 }
 
-/* line 307, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 309, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .hero__boxes_small {
   display: flex;
   align-items: center;
@@ -345,12 +345,12 @@ ul, ol {
   background-color: #ffffff;
 }
 
-/* line 312, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 314, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .hero__boxes_small img {
   margin-right: 1.6rem;
 }
 
-/* line 315, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 317, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .hero__boxes p {
   font-size: 1.6rem;
   line-height: 2.4rem;
@@ -360,7 +360,7 @@ ul, ol {
   margin-bottom: 2px;
 }
 
-/* line 322, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 324, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .hero__boxes span {
   color: #626687;
   font-size: 12px;
@@ -368,37 +368,37 @@ ul, ol {
   text-transform: capitalize;
 }
 
-/* line 328, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 330, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .people {
   display: flex;
   width: 11.2rem;
   margin-right: 1.6rem;
 }
 
-/* line 333, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 335, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .people li img {
   border-radius: 50%;
   outline: 3px solid #ffffff;
   outline-offset: -3px;
 }
 
-/* line 338, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 340, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .people li:nth-child(2) {
   transform: translateX(-27px);
 }
 
-/* line 341, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 343, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .people li:nth-child(3) {
   transform: translateX(-53px);
 }
 
-/* line 348, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 350, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .section__container {
   margin-left: 4rem;
   position: relative;
 }
 
-/* line 352, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 354, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .section__pretitle {
   font-size: 1.4rem;
   line-height: 1.8rem;
@@ -409,7 +409,7 @@ ul, ol {
   margin: 0 0 1.2rem 4rem;
 }
 
-/* line 360, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 362, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .section__pretitle::before {
   content: "";
   position: absolute;
@@ -420,31 +420,31 @@ ul, ol {
   background-color: #F59E0B;
 }
 
-/* line 368, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 370, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .features {
   margin-bottom: 12rem;
 }
 
-/* line 371, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 373, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .features__subtitle, .features__info {
   font-weight: 500;
   line-height: 3.2rem;
 }
 
-/* line 376, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 378, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .features__subtitle {
   font-size: 2.4rem;
   margin-bottom: .8rem;
 }
 
-/* line 380, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 382, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .features__price {
   font-size: 2rem;
   color: #3C4563;
   margin-bottom: 2.4rem;
 }
 
-/* line 385, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 387, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .features__block {
   display: flex;
   justify-content: space-between;
@@ -453,19 +453,19 @@ ul, ol {
   margin-bottom: 4rem;
 }
 
-/* line 390, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 392, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .features__navigation {
   display: flex;
   justify-content: space-between;
   width: 55%;
 }
 
-/* line 394, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 396, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .features__item {
   user-select: none;
 }
 
-/* line 397, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 399, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .features .swiper-container {
   position: relative;
   width: 100%;
@@ -473,14 +473,14 @@ ul, ol {
   margin: 0 auto;
 }
 
-/* line 403, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 405, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .features .swiper {
   width: 100%;
   height: 100%;
   overflow: visible !important;
 }
 
-/* line 408, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 410, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .features .swiper-slide {
   width: 350px;
   min-width: 350px;
@@ -492,13 +492,13 @@ ul, ol {
   user-select: none;
 }
 
-/* line 418, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 420, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .features .swiper-slide .swiper-img {
   border-radius: 24px;
   margin-bottom: 2.4rem;
 }
 
-/* line 422, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 424, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .features .swiper-button-prev,
 .features .swiper-button-next {
   display: flex;
@@ -516,53 +516,53 @@ ul, ol {
   z-index: 1;
 }
 
-/* line 437, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 439, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .features .swiper-button-prev svg,
 .features .swiper-button-next svg {
   fill: #ffffff;
 }
 
-/* line 440, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 442, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .features .swiper-button-prev:hover,
 .features .swiper-button-next:hover {
   opacity: 0.7;
 }
 
-/* line 442, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 444, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .features .swiper-button-prev:active,
 .features .swiper-button-next:active {
   opacity: 0.5;
 }
 
-/* line 445, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 447, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .features .swiper-button-next {
   right: 2px;
   transform: rotate(180deg);
 }
 
-/* line 449, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 451, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .features .swiper-button-prev {
   right: 85px;
 }
 
-/* line 452, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 454, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .features .swiper-button-prev::after,
 .features .swiper-button-next::after {
   display: none !important;
 }
 
-/* line 456, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 458, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .features .swiper-button-disabled {
   opacity: 1 !important;
   background-color: #E0E3EB !important;
 }
 
-/* line 460, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 462, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .features .swiper-button-disabled svg {
   fill: #3C4563;
 }
 
-/* line 463, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 465, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .block-button {
   display: flex;
   justify-content: space-between;
@@ -576,25 +576,25 @@ ul, ol {
   transition: all .3s;
 }
 
-/* line 473, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 475, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .block-button i {
   margin-right: 11px;
   color: #888B97;
 }
 
-/* line 477, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 479, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .block-button:hover {
   border: 1px solid transparent;
   background-color: #D1FAE5;
   color: #10B981;
 }
 
-/* line 482, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 484, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .block-button:hover i {
   color: #10B981;
 }
 
-/* line 485, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 487, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .img__button {
   display: flex;
   align-items: center;
@@ -608,51 +608,51 @@ ul, ol {
   padding: 8px 15px;
 }
 
-/* line 495, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 497, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .img__button i {
   margin-right: 12px;
 }
 
-/* line 498, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 500, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .img__button_popular {
   width: 11.2rem;
   color: #EF4444;
   background-color: #FEE2E2;
 }
 
-/* line 503, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 505, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .img__button_new {
   width: 13.5rem;
   color: #1D4ED8;
   background-color: #DBEAFE;
 }
 
-/* line 508, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 510, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .img__button_best {
   width: 13rem;
   color: #047857;
   background-color: #D1FAE5;
 }
 
-/* line 513, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 515, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .slide__info {
   color: #0E1735;
   text-transform: capitalize;
   text-align: left;
 }
 
-/* line 518, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 520, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .slide__info_people {
   display: flex;
   align-items: center;
 }
 
-/* line 521, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 523, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .slide__info_people img {
   margin: 0 1.6rem 0 0;
 }
 
-/* line 524, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 526, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .slide__info_contacts {
   display: flex;
   justify-content: space-between;
@@ -661,14 +661,14 @@ ul, ol {
   font-weight: 500;
 }
 
-/* line 530, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 532, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .slide__info_contacts p {
   font-size: 1.8rem;
   line-height: 2.4rem;
   margin-bottom: .4rem;
 }
 
-/* line 535, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 537, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .slide__info_contacts span {
   font-size: 1.4rem;
   line-height: 2.2rem;
@@ -676,18 +676,18 @@ ul, ol {
   text-transform: capitalize;
 }
 
-/* line 542, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 544, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .tour .section__container {
   max-width: 600px;
 }
 
-/* line 545, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 547, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .tour {
   position: relative;
   margin-bottom: 15.3rem;
 }
 
-/* line 549, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 551, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .tour::before {
   content: "";
   position: absolute;
@@ -701,44 +701,44 @@ ul, ol {
   z-index: -1;
 }
 
-/* line 560, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 562, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .tour__title {
   margin-bottom: 1.6rem;
 }
 
-/* line 563, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 565, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .tour__info, .tour__house {
   font-size: 1.6rem;
   line-height: 2.8rem;
   margin-bottom: 1.6rem;
 }
 
-/* line 568, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 570, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .tour__info {
   width: 69%;
   opacity: 0.75;
   color: #626687;
 }
 
-/* line 573, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 575, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .tour__house {
   color: #1B1C57;
   font-weight: 600;
   text-transform: capitalize;
 }
 
-/* line 578, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 580, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .tour__button {
   padding: 12px 16.5px;
 }
 
-/* line 581, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 583, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .tour__button i {
   font-size: 2.4rem;
   margin-right: 1.6rem;
 }
 
-/* line 585, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 587, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .house__details {
   display: flex;
   justify-content: space-between;
@@ -750,20 +750,20 @@ ul, ol {
   margin-bottom: 6.5rem;
 }
 
-/* line 594, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 596, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .house__details_item {
   display: flex;
   align-items: center;
 }
 
-/* line 597, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 599, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .house__details i {
   font-size: 3.2rem;
   color: #888B97;
   margin-right: 1.8rem;
 }
 
-/* line 602, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 604, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .house__details p {
   color: #3C4563;
   font-weight: 500;
@@ -772,7 +772,7 @@ ul, ol {
   text-transform: capitalize;
 }
 
-/* line 609, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 611, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .house__details::before {
   content: "";
   position: absolute;
@@ -782,37 +782,37 @@ ul, ol {
   background-color: #F0F3FD;
 }
 
-/* line 616, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 618, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .tour__left .slide__info_people img {
   margin-right: 2.4rem;
 }
 
-/* line 619, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 621, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .tour__left .slide__info_people span {
   font-size: 1.6rem;
   line-height: 2.4rem;
   font-weight: 500;
 }
 
-/* line 623, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 625, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .house__contacts {
   display: flex;
   align-items: center;
 }
 
-/* line 627, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 629, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .house__contacts .slide__info_people {
   margin-right: 5.7rem;
 }
 
-/* line 630, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 632, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .tour__right {
   position: absolute;
   top: -35px;
   right: 0;
 }
 
-/* line 635, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 637, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .tour__right-list {
   display: flex;
   align-items: flex-end;
@@ -822,46 +822,46 @@ ul, ol {
   left: -40px;
 }
 
-/* line 643, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 645, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .tour__right-item img {
   border-radius: 4px;
 }
 
-/* line 646, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 648, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .tour__right-item:nth-child(1) {
   margin-right: 1.2rem;
 }
 
-/* line 649, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 651, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .tour__right-item:nth-child(2) {
   margin-right: .8rem;
 }
 
-/* line 654, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 656, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .pretitle-center {
   text-align: center;
   margin: 0 auto 1.2rem;
 }
 
-/* line 658, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 660, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .pretitle-center::before {
   top: -50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-/* line 663, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 665, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .reviews {
   margin-bottom: 27.3rem;
 }
 
-/* line 666, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 668, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .reviews__title {
   text-align: center;
   margin-bottom: 4rem;
 }
 
-/* line 670, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 672, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .reviews__info {
   width: 82.75%;
   height: 62.3%;
@@ -875,21 +875,21 @@ ul, ol {
   text-align: left;
 }
 
-/* line 682, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 684, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .reviews__info .slide__info_people img {
   width: 40px !important;
   height: 40px !important;
   margin-right: 2.4rem;
 }
 
-/* line 687, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 689, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .reviews__info .slide__info_contacts p {
   font-size: 1.4rem;
   line-height: 2.2rem;
   color: #0E1735;
 }
 
-/* line 691, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 693, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .reviews__subtitle {
   font-weight: 600;
   font-size: 2rem;
@@ -898,7 +898,7 @@ ul, ol {
   margin-bottom: 1.6rem;
 }
 
-/* line 698, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 700, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .reviews__text {
   font-size: 1.4rem;
   line-height: 2.4rem;
@@ -907,7 +907,7 @@ ul, ol {
   margin-bottom: 2.4rem;
 }
 
-/* line 704, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 706, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .reviews__box {
   display: flex;
   justify-content: space-between;
@@ -915,20 +915,20 @@ ul, ol {
   width: 85%;
 }
 
-/* line 709, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 711, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .reviews__rate {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* line 712, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 714, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .reviews__rate i {
   color: #F59E0B;
   margin-right: 1.6rem;
 }
 
-/* line 716, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 718, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .reviews__rate p {
   color: #3C4563;
   font-weight: 600;
@@ -936,21 +936,21 @@ ul, ol {
   line-height: 2.8rem;
 }
 
-/* line 722, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 724, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .reviews .swiper-container {
   position: relative;
   width: 100%;
   margin: 0 auto;
 }
 
-/* line 727, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 729, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .reviews .swiper {
   width: 100%;
   height: 100%;
   overflow: visible !important;
 }
 
-/* line 732, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 734, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .reviews .swiper-slide {
   display: flex;
   align-items: center;
@@ -965,7 +965,7 @@ ul, ol {
   position: relative;
 }
 
-/* line 744, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 746, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .reviews .swiper-slide img {
   display: block;
   width: auto !important;
@@ -974,37 +974,37 @@ ul, ol {
   border-radius: 8px;
 }
 
-/* line 751, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 753, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .reviews .swiper-pagination {
   bottom: -150px !important;
 }
 
-/* line 754, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 756, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .reviews .swiper-pagination-bullet {
   background: #E0E3EB !important;
   opacity: 1 !important;
   margin: 0 8px !important;
 }
 
-/* line 759, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 761, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .reviews .swiper-pagination-bullet-active {
   background: #3C4563 !important;
 }
 
-/* line 764, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 766, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .find {
   margin-bottom: 12rem;
   position: relative;
 }
 
-/* line 768, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 770, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .find__subcontainer {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-/* line 772, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 774, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .find::before {
   content: "";
   position: absolute;
@@ -1018,25 +1018,25 @@ ul, ol {
   z-index: -1;
 }
 
-/* line 783, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 785, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .find__title {
   text-align: center;
   margin: 0 auto 2.4rem;
   width: 36%;
 }
 
-/* line 788, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 790, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .find__button {
   padding: 12px 16.5px;
   margin: 0 auto 4rem;
 }
 
-/* line 792, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 794, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .find__left, .find__right {
   width: 50%;
 }
 
-/* line 796, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 798, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .find__left {
   display: flex;
   justify-content: space-between;
@@ -1044,34 +1044,34 @@ ul, ol {
   margin-right: 6.8rem;
 }
 
-/* line 801, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 803, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .find__img {
   border-radius: 16px;
 }
 
-/* line 804, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 806, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .find__img:not(:last-child) {
   margin-right: 3.2rem;
 }
 
-/* line 807, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 809, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .find__img_right {
   margin-bottom: 2.4rem;
 }
 
-/* line 810, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 812, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .find__subcontainer {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* line 813, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 815, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .find__subcontainer:not(:last-child) {
   margin-bottom: 4rem;
 }
 
-/* line 816, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 818, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .find__subcontainer_title {
   font-weight: 500;
   font-size: 1.8rem;
@@ -1080,7 +1080,7 @@ ul, ol {
   margin-bottom: 1.6rem;
 }
 
-/* line 823, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 825, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .find__subcontainer_text {
   font-size: 1.4rem;
   line-height: 2.4rem;
@@ -1089,25 +1089,25 @@ ul, ol {
   margin-bottom: 1.6rem;
 }
 
-/* line 829, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 831, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .find__subcontainer_time {
   display: flex;
   align-items: center;
 }
 
-/* line 832, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 834, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .find__subcontainer_time p {
   font-size: 1.4rem;
   line-height: 2.4rem;
   color: #888B97;
 }
 
-/* line 836, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 838, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .find__subcontainer_info .slide__info_people {
   margin-bottom: 1.2rem;
 }
 
-/* line 839, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 841, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .find__subcontainer_info .slide__info_people p {
   font-size: 1.4rem;
   line-height: 2.2rem;
@@ -1115,59 +1115,59 @@ ul, ol {
   font-weight: 400;
 }
 
-/* line 844, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 846, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .find__right .find__subcontainer_title {
   font-size: 2.4rem;
   margin-bottom: 1.2rem;
 }
 
-/* line 848, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 850, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .icon-clock {
   color: #888B97;
   margin-right: 1.4rem;
 }
 
-/* line 854, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 856, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .icon-email {
   color: #3B82F6;
 }
 
-/* line 857, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 859, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .subscribe__imgages .subscrbe__img:nth-child(1) {
   margin-bottom: 5.4rem;
 }
 
-/* line 860, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 862, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .subscribe__imgages:nth-child(2) .subscrbe__img:nth-child(1) {
   margin-bottom: 7.1rem;
 }
 
-/* line 863, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 865, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .subscribe__right .subscribe__imgages:nth-child(1) .subscrbe__img:nth-child(1) {
   margin-bottom: 6.1rem;
 }
 
-/* line 866, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 868, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .subscribe__right .subscribe__imgages:nth-child(2) {
   margin-top: 6rem;
 }
 
-/* line 869, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 871, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .subscribe__right .subscribe__imgages:nth-child(2) .subscrbe__img:nth-child(1) {
   margin-bottom: 5.6rem;
 }
 
-/* line 872, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 874, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .subscribe__imgages:nth-child(1) {
   margin-right: 7.9rem;
 }
 
-/* line 875, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 877, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .subscribe__imgages:nth-child(2) {
   margin-top: 3rem;
 }
 
-/* line 878, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 880, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .subscribe {
   display: flex;
   justify-content: space-between;
@@ -1178,49 +1178,49 @@ ul, ol {
   margin-bottom: 120px;
 }
 
-/* line 886, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 888, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .subscribe__left, .subscribe__right {
   display: flex;
 }
 
-/* line 890, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 892, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .subscribe__left {
   margin-right: 10.3rem;
 }
 
-/* line 893, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 895, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .subscribe__center {
   margin-top: auto;
   margin-right: 8.2rem;
 }
 
-/* line 897, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 899, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .subscribe__imgages {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-/* line 901, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 903, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .subscribe__imgages img {
   border-radius: 24px;
   outline: 2px solid #ffffff;
   outline-offset: 0px;
 }
 
-/* line 906, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 908, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .subscribe__title {
   line-height: 4.8rem;
   text-align: center;
   margin-bottom: 3.2rem;
 }
 
-/* line 911, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 913, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .subscribe__search {
   position: relative;
 }
 
-/* line 914, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 916, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .subscribe__search i {
   display: block;
   position: absolute;
@@ -1231,7 +1231,7 @@ ul, ol {
   z-index: 1;
 }
 
-/* line 923, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 925, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .subscribe__search input {
   position: relative;
   width: 49.6rem;
@@ -1239,7 +1239,7 @@ ul, ol {
   border: none;
 }
 
-/* line 929, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 931, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .subscribe__button {
   position: absolute;
   top: 4px;
@@ -1247,7 +1247,7 @@ ul, ol {
   padding: 12px 16.1px;
 }
 
-/* line 937, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 939, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .social {
   display: flex;
   justify-content: space-between;
@@ -1255,25 +1255,25 @@ ul, ol {
   width: 47%;
 }
 
-/* line 941, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 943, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .social__icon {
   font-size: 2rem;
   color: #3C4563;
 }
 
-/* line 945, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 947, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .social__link {
   padding: 1rem;
 }
 
-/* line 948, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 950, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .property,
 .article,
 .contact {
   text-transform: capitalize;
 }
 
-/* line 953, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 955, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .property__title,
 .article__title,
 .contact__title {
@@ -1283,7 +1283,7 @@ ul, ol {
   line-height: 2.2rem;
 }
 
-/* line 959, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 961, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .property__link,
 .article__link,
 .contact__link {
@@ -1293,18 +1293,18 @@ ul, ol {
   font-weight: 400;
 }
 
-/* line 964, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 966, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .contact .contact__item:nth-child(4) .contact__link {
   text-transform: none;
 }
 
-/* line 967, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 969, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .main-footer {
   display: flex;
   position: relative;
 }
 
-/* line 971, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 973, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .main-footer::before {
   content: "";
   position: absolute;
@@ -1318,40 +1318,40 @@ ul, ol {
   z-index: -1;
 }
 
-/* line 982, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 984, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .main-footer__left, .main-footer__right {
   display: flex;
 }
 
-/* line 986, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 988, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .main-footer__left {
   width: 26.5%;
   flex-direction: column;
   margin-right: auto;
 }
 
-/* line 991, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 993, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .main-footer__right {
   width: 51%;
   justify-content: space-between;
 }
 
-/* line 995, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 997, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .main-footer__right_title {
   margin-bottom: 2.4rem;
 }
 
-/* line 998, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 1000, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .main-footer__right_link {
   margin-bottom: 1.8rem;
 }
 
-/* line 1001, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 1003, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .main-footer__logo {
   margin-bottom: 1.6rem;
 }
 
-/* line 1004, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 1006, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .main-footer__info {
   font-size: 1.4rem;
   line-height: 2.4rem;
@@ -1360,105 +1360,105 @@ ul, ol {
   margin-bottom: 2.4rem;
 }
 
-/* line 1010, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+/* line 1012, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
 .hamburger,
 .mobile-menu {
   display: none;
 }
 
 @media (max-width: 1400px) {
-  /* line 1018, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1020, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .background-wrapper {
     width: 90vw;
   }
-  /* line 1021, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1023, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .container {
     width: 1170px;
   }
-  /* line 1025, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1027, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hero__right_img {
     bottom: -91px;
     right: -145px;
   }
-  /* line 1029, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1031, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hero__title {
     width: 40%;
   }
-  /* line 1032, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1034, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hero__button {
     left: 370px;
   }
-  /* line 1035, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1037, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hero__boxes {
     right: -25px;
   }
-  /* line 1038, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1040, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .find__title {
     width: 37%;
   }
 }
 
 @media (max-width: 1199px) {
-  /* line 1043, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1045, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .container {
     width: 960px;
   }
-  /* line 1046, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1048, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   html {
     font-size: 62%;
   }
-  /* line 1049, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1051, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hero__right_img {
     display: none;
   }
-  /* line 1052, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1054, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .main-nav {
     width: 100%;
   }
-  /* line 1055, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1057, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .navigation {
     width: 55%;
     margin-right: 6%;
   }
-  /* line 1059, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1061, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   a {
     color: #ffffff;
   }
-  /* line 1062, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1064, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .btn-transparent {
     background-color: #10B981;
     border: 1px solid #10B981;
   }
-  /* line 1067, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1069, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hero__left, .hero__title, .hero__info, .hero__partnership {
     width: 100%;
   }
-  /* line 1073, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1075, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hero__partnership {
     justify-content: space-around;
   }
-  /* line 1076, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1078, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hero__title {
     text-align: center;
   }
-  /* line 1079, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1081, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hero__button {
     left: 848px;
   }
-  /* line 1082, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1084, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hero__search input {
     width: 100%;
   }
-  /* line 1085, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1087, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hero__boxes_big, .hero__boxes_small {
     border: 1px solid #10B981;
   }
-  /* line 1089, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1091, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hero__boxes {
     left: 222px;
     top: 30px;
   }
-  /* line 1093, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1095, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hero__info,
   .hero__partnership-info,
   .tour__info,
@@ -1466,235 +1466,235 @@ ul, ol {
   .find__subcontainer_text {
     opacity: 1;
   }
-  /* line 1100, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1102, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .section__container {
     margin-left: unset;
   }
-  /* line 1103, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1105, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .features {
     margin-bottom: 7rem;
   }
-  /* line 1106, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1108, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .features__title {
     margin-bottom: 2rem;
   }
-  /* line 1109, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1111, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .features__block {
     flex-wrap: wrap;
     align-items: flex-start;
     flex-direction: column;
   }
-  /* line 1114, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1116, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .features__navigation {
     width: 90%;
     justify-content: space-between;
     margin-bottom: 2rem;
   }
-  /* line 1119, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1121, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .features .swiper-button-prev,
   .features .swiper-button-next {
     right: 60px;
   }
-  /* line 1123, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1125, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .features .swiper-button-prev {
     top: -180px;
   }
-  /* line 1126, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1128, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .features .swiper-button-next {
     top: -90px;
   }
-  /* line 1129, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1131, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .features .swiper-wrapper {
     margin-left: 200px;
   }
-  /* line 1132, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1134, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .tour {
     margin-bottom: 7rem;
   }
-  /* line 1135, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1137, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .tour::before {
     right: -440px;
     top: -50px;
   }
-  /* line 1139, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1141, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .tour__right {
     top: 22px;
     right: 64px;
   }
-  /* line 1143, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1145, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .tour__right_img {
     width: 300px;
   }
-  /* line 1146, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1148, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .tour__right-list {
     bottom: -120px;
     left: -120px;
   }
-  /* line 1150, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1152, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .reviews {
     margin-bottom: 23.3rem;
   }
-  /* line 1153, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1155, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .find,
   .main-footer {
     width: 90%;
     margin: 0 auto;
   }
-  /* line 1158, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1160, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .find {
     margin-bottom: 7rem;
   }
-  /* line 1161, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1163, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .find__title {
     width: 100%;
   }
-  /* line 1164, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1166, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .find__left {
     flex-direction: row;
     margin-bottom: 5rem;
   }
-  /* line 1168, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1170, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .find__right {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
   }
-  /* line 1172, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1174, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .find__subcontainer {
     flex-wrap: wrap;
   }
-  /* line 1175, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1177, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .find__subcontainer_title {
     width: 90%;
   }
-  /* line 1178, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1180, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .find__img {
     margin-bottom: 3rem;
   }
-  /* line 1181, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1183, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .find__img_right {
     width: 26rem;
     height: 14rem;
     margin-bottom: unset;
     margin-right: 3rem;
   }
-  /* line 1187, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1189, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .find__img:not(:last-child) {
     margin-right: 12rem;
   }
-  /* line 1190, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1192, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .find__subcontainer:not(:last-child) {
     margin-bottom: unset;
   }
-  /* line 1193, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1195, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .subscribe {
     width: 90%;
     margin: 0 auto 30px;
   }
-  /* line 1197, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1199, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .subscribe__left, .subscribe__right {
     display: none;
   }
-  /* line 1201, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1203, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .subscribe__center {
     width: 100%;
     margin-right: unset;
   }
-  /* line 1205, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1207, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .subscribe__search input {
     width: 100%;
   }
-  /* line 1208, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1210, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .subscribe__button {
     left: 618px;
   }
-  /* line 1211, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1213, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .main-footer__right {
     width: 71%;
   }
 }
 
 @media (max-width: 991px) {
-  /* line 1216, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1218, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .container {
     width: 720px;
   }
-  /* line 1219, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1221, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   html {
     font-size: 61%;
   }
-  /* line 1223, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1225, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hero__button {
     left: 607px;
   }
-  /* line 1226, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1228, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hero__boxes {
     left: 100px;
   }
-  /* line 1230, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1232, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .features__navigation {
     width: 100%;
   }
-  /* line 1233, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1235, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .features .swiper-button-prev,
   .features .swiper-button-next {
     right: 20px;
   }
-  /* line 1237, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1239, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .tour__right {
     display: none;
   }
-  /* line 1240, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1242, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .find__img {
     margin-right: unset;
   }
-  /* line 1243, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1245, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .find__img:not(:last-child) {
     margin-right: 6rem;
   }
-  /* line 1246, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1248, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .subscribe__button {
     left: 405px;
   }
-  /* line 1251, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1253, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .main-footer__left {
     margin-right: 30px;
   }
-  /* line 1254, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1256, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .main-footer__right ul:not(:last-child) {
     margin-right: 30px;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 1259, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1261, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   body {
     padding-bottom: 0;
   }
-  /* line 1262, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1264, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .background-wrapper {
     width: 100%;
     overflow: hidden;
     padding: 0 10px;
   }
-  /* line 1267, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1269, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .container {
     width: 540px;
   }
-  /* line 1270, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1272, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   html {
     font-size: 60%;
   }
-  /* line 1273, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1275, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .btn-light_green {
     border: 1px solid #047857;
   }
-  /* line 1276, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1278, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .navigation {
     display: none;
   }
-  /* line 1279, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1281, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .mobile-menu {
     display: flex;
     position: fixed;
@@ -1705,7 +1705,7 @@ ul, ol {
     z-index: 10;
     transition: all 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
   }
-  /* line 1289, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1291, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .mobile-menu__list {
     display: flex;
     align-items: center;
@@ -1715,18 +1715,18 @@ ul, ol {
     width: 100%;
     height: 100%;
   }
-  /* line 1297, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1299, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .mobile-menu a {
     color: #ffffff;
     font-size: 25px;
     font-weight: 500;
   }
-  /* line 1302, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1304, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .mobile-menu_active {
     left: 0px;
     width: 50%;
   }
-  /* line 1306, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1308, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hamburger {
     display: flex;
     justify-content: space-between;
@@ -1738,7 +1738,7 @@ ul, ol {
     height: 15px;
     z-index: 20;
   }
-  /* line 1316, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1318, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hamburger span {
     height: 2px;
     width: 100%;
@@ -1746,201 +1746,228 @@ ul, ol {
     transition: 1s all;
     display: block;
   }
-  /* line 1323, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1325, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hamburger_active {
     height: 4px;
   }
-  /* line 1327, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1329, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hamburger_active span:nth-child(1) {
     transform: translateY(5px) rotate(-45deg);
   }
-  /* line 1329, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1331, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hamburger_active span:nth-child(2) {
     display: none;
   }
-  /* line 1331, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1333, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hamburger_active span:nth-child(3) {
     transform: translateY(3px) rotate(45deg);
   }
-  /* line 1335, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1337, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hero__button {
     left: 429px;
   }
-  /* line 1338, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1340, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hero__boxes {
     left: 5px;
   }
-  /* line 1341, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1343, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  .hero__info, .hero__partnership-info {
+    text-align: center;
+  }
+  /* line 1347, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  .hero__search {
+    margin: 0 auto 4rem;
+  }
+  /* line 1350, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .features .swiper-wrapper {
     margin-left: 290px;
   }
-  /* line 1344, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1353, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .reviews {
     margin-bottom: 42rem;
   }
-  /* line 1347, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1356, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .reviews .swiper-slide {
     height: 16rem;
   }
-  /* line 1350, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1359, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .reviews .swiper-slide img {
     width: 300px !important;
   }
-  /* line 1353, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1362, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .reviews .slide__info_people img {
     width: 40px !important;
   }
-  /* line 1356, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1365, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .reviews .swiper-pagination {
     bottom: -355px !important;
   }
-  /* line 1359, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1368, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .reviews__info {
     width: 50%;
     height: 300px;
     top: 150px;
   }
-  /* line 1364, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1373, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .find {
-    margin-bottom: 5rem;
+    text-align: center;
+    margin-bottom: 7rem;
   }
-  /* line 1367, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1377, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .find__left {
     width: 60%;
     flex-wrap: wrap;
     margin-right: unset;
     margin-bottom: 7rem;
   }
-  /* line 1373, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1383, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .find__subcontainer {
     justify-content: center;
   }
-  /* line 1376, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1386, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .find__subcontainer:not(:last-child) {
     margin-bottom: 7rem;
   }
-  /* line 1379, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1389, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .find__subcontainer_title {
     width: 100%;
   }
-  /* line 1382, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1392, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .find__img {
     width: 300px;
   }
-  /* line 1385, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1395, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .find__img:not(:last-child) {
     margin-right: unset;
   }
-  /* line 1388, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1398, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .find__right {
     flex-direction: column;
   }
-  /* line 1391, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1401, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .find__img_right {
     width: 300px;
     margin-right: unset;
     margin-bottom: 3rem;
   }
-  /* line 1396, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1406, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .find__right .find__subcontainer_info {
     width: 60%;
   }
-  /* line 1399, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1409, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .subscribe {
     margin-bottom: 5rem;
   }
-  /* line 1402, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1412, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .subscribe__button {
     left: 247px;
   }
-  /* line 1405, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1415, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .main-footer {
     flex-direction: column;
     flex-wrap: wrap;
   }
-  /* line 1409, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1419, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .main-footer__left, .main-footer__right {
     width: 90%;
+    margin: 0 auto;
   }
-  /* line 1413, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1424, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .main-footer__left {
     margin-bottom: 3rem;
   }
-  /* line 1416, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1427, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  .main-footer__info {
+    text-align: center;
+  }
+  /* line 1430, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  .main-footer__right ul:not(:last-child) {
+    margin-right: unset;
+  }
+  /* line 1433, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .social {
-    width: 65%;
+    width: 77%;
+    margin: 0 auto;
+  }
+  /* line 1437, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  .property,
+  .article,
+  .contact {
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
   }
 }
 
 @media (max-width: 575px) {
-  /* line 1421, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1446, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .container {
     width: 100%;
   }
-  /* line 1424, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1449, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   html {
     font-size: 59%;
   }
-  /* line 1427, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1452, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .title {
     width: 90%;
     font-size: 3rem;
     text-align: center;
     margin: 0 auto 3rem;
   }
-  /* line 1433, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1458, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .main-header {
     padding-top: 4rem;
   }
-  /* line 1436, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1461, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .main-nav {
     width: 78%;
     justify-content: space-around;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
   }
-  /* line 1441, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1466, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .main-nav__logo {
     margin-right: unset;
   }
-  /* line 1444, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1469, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .main-nav__button {
     padding: 6px 12.5px;
   }
-  /* line 1447, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1472, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hamburger {
     top: 50px;
     right: 48px;
   }
-  /* line 1451, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1476, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hero {
     width: 90%;
-    margin-bottom: 23rem;
+    margin-bottom: 28rem;
   }
-  /* line 1455, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
-  .hero__info, .hero__search, .hero__partnership {
+  /* line 1480, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  .hero__info, .hero__partnership {
     width: 90%;
     margin: 0 auto 3rem;
   }
-  /* line 1461, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1485, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hero__partnership-info {
     width: 90%;
   }
-  /* line 1464, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
-  .hero__search input {
+  /* line 1488, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  .hero__search {
     width: 300px;
   }
-  /* line 1467, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1491, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hero__button {
     left: 190px;
   }
-  /* line 1470, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1494, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hero__partnership {
     height: 180px;
     flex-wrap: wrap;
     align-items: center;
     flex-direction: column;
   }
-  /* line 1476, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1500, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hero__boxes {
     width: 300px;
     align-items: center;
@@ -1948,181 +1975,186 @@ ul, ol {
     top: 0;
     left: 20px;
   }
-  /* line 1483, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1507, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hero__boxes_big, .hero__boxes_small {
     width: 300px;
     border: none;
     padding: unset;
   }
-  /* line 1489, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1513, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hero__boxes_big {
     justify-content: space-between;
     margin-bottom: 3rem;
   }
-  /* line 1493, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1517, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .hero__boxes_small {
     justify-content: space-around;
   }
-  /* line 1496, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1520, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   form input::placeholder {
     color: transparent;
   }
-  /* line 1499, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1523, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .features {
     margin-bottom: 5rem;
   }
-  /* line 1502, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1526, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .features__navigation {
     width: 90%;
     flex-direction: column;
     margin: 0 auto 3rem;
   }
-  /* line 1507, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1531, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .features__item {
     width: 200px;
   }
-  /* line 1510, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1534, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .features__item:not(:last-child) {
     margin-bottom: 3rem;
   }
-  /* line 1513, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1537, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .features .swiper-img {
     width: 200px;
   }
-  /* line 1516, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1540, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .features .swiper-slide {
     margin-right: -120px !important;
   }
-  /* line 1519, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1543, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .features .swiper-wrapper {
     margin-left: -20px;
   }
-  /* line 1522, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1546, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .features .swiper-button-prev,
   .features .swiper-button-next {
     right: 0;
     left: 240px;
   }
-  /* line 1527, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1551, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .features .swiper-button-next {
     top: -94px;
   }
-  /* line 1530, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1554, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .features .swiper-button-prev {
     top: -171px;
   }
-  /* line 1533, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1557, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .features .swiper-container {
     height: 400px;
   }
-  /* line 1536, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1560, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .features .img__button {
     top: 165px;
   }
-  /* line 1539, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1563, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .house__details {
     width: 80%;
-    align-items: stretch;
+    align-items: flex-start;
     margin: 0 auto 6rem;
   }
-  /* line 1544, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1568, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .house__details p {
     font-size: 1.2rem;
   }
-  /* line 1547, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1571, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .house__contacts {
     align-items: center;
     flex-direction: column;
   }
-  /* line 1551, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1575, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .house__contacts .slide__info_people {
     margin: 0 0 2rem 0;
   }
-  /* line 1554, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1578, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .pretitle-center {
     margin: 0 auto 2rem;
   }
-  /* line 1557, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1581, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .tour {
-    margin-bottom: 5rem;
+    margin-bottom: 10rem;
   }
-  /* line 1560, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
-  .tour__house {
+  /* line 1584, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  .tour__house, .tour__info {
     text-align: center;
   }
-  /* line 1563, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1588, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .tour__left, .tour__info {
     width: 90%;
     margin: 0 auto 3rem;
   }
-  /* line 1568, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1593, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .tour__button {
     padding: 5px;
   }
-  /* line 1571, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1596, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .tour__button i {
     margin-right: 0px;
   }
-  /* line 1574, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1599, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .reviews {
-    margin-bottom: 50rem;
+    margin-bottom: 55rem;
   }
-  /* line 1577, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1602, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .reviews__info {
     width: 300px;
     height: 360px;
   }
-  /* line 1581, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1606, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .reviews .swiper-pagination {
     bottom: -425px !important;
   }
-  /* line 1584, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1609, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .reviews .swiper-pagination-bullet {
     width: 15px !important;
     height: 15px !important;
     margin: 0 30px !important;
   }
-  /* line 1591, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1616, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .find__left {
     width: 90%;
     margin-right: 0px;
   }
-  /* line 1595, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1620, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .find__img {
     width: 180px;
   }
-  /* line 1598, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1623, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .find__subcontainer {
     flex-direction: column;
   }
-  /* line 1601, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1626, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .find__right .find__subcontainer_info {
     width: 90%;
   }
-  /* line 1604, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1629, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .subscribe {
     height: 20.2rem;
   }
-  /* line 1607, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1632, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .subscribe__title {
     display: none;
   }
-  /* line 1610, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1635, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .subscribe__button {
-    left: 0px;
-    top: 85px;
+    display: inline-block;
+    left: 50%;
+    top: 200%;
+    transform: translate(-50%, -50%);
+    width: 140px;
+    height: 50px;
+    padding: unset;
   }
-  /* line 1614, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1644, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .subscribe__center {
     position: relative;
     margin-top: unset;
   }
-  /* line 1618, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1648, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .subscribe form {
     top: 0px;
-    width: 100%;
+    width: 105%;
   }
-  /* line 1622, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
+  /* line 1652, ../ВЁРСТКА/HOUNTER элитные дома/sass/style.sass */
   .property__link,
   .article__link,
   .contact__link,

@@ -25,6 +25,8 @@ $btn-new-color: #DBEAFE
 
 $text-shadow: -1px 0 $main-color, 0 1px $main-color, 1px 0 $main-color, 0 -1px $main-color
 
+$mb-5: 5rem
+
 @mixin display-between
     display: flex
     justify-content: space-between
@@ -1338,6 +1340,13 @@ ul, ol
         &__boxes
             left: 5px
 
+        &__info,
+        &__partnership-info
+            text-align: center
+
+        &__search
+            margin: 0 auto 4rem
+
     .features .swiper-wrapper
         margin-left: 290px
 
@@ -1362,7 +1371,8 @@ ul, ol
             top: 150px
 
     .find
-        margin-bottom: 5rem
+        text-align: center
+        margin-bottom: 7rem
 
         &__left
             width: 60%
@@ -1409,12 +1419,27 @@ ul, ol
         &__left,
         &__right
             width: 90%
+            margin: 0 auto
 
         &__left
             margin-bottom: 3rem
 
+        &__info
+            text-align: center
+
+    .main-footer__right ul:not(:last-child)
+        margin-right: unset
+
     .social
-        width: 65%
+        width: 77%
+        margin: 0 auto
+
+    .property,
+    .article,
+    .contact
+        width: 30%
+        margin: 0 auto
+        text-align: center
 
 @media (max-width: 575px)
 
@@ -1436,7 +1461,7 @@ ul, ol
     .main-nav
         width: 78%
         justify-content: space-around
-        margin-bottom: 3rem
+        margin-bottom: $mb-5
 
         &__logo
             margin-right: unset
@@ -1450,10 +1475,9 @@ ul, ol
 
     .hero
         width: 90%
-        margin-bottom: 23rem
+        margin-bottom: 28rem
 
         &__info,
-        &__search,
         &__partnership,
             width: 90%
             margin: 0 auto 3rem
@@ -1461,7 +1485,7 @@ ul, ol
         &__partnership-info
             width: 90%
 
-        &__search input
+        &__search
             width: 300px
 
         &__button
@@ -1497,7 +1521,7 @@ ul, ol
         color: transparent
 
     .features
-        margin-bottom: 5rem
+        margin-bottom: $mb-5
 
         &__navigation,
             width: 90%
@@ -1538,7 +1562,7 @@ ul, ol
 
     .house__details
         width: 80%
-        align-items: stretch
+        align-items: flex-start
         margin: 0 auto 6rem
 
         p
@@ -1555,9 +1579,10 @@ ul, ol
         margin: 0 auto 2rem
 
     .tour
-        margin-bottom: 5rem
+        margin-bottom: 10rem
 
-        &__house
+        &__house,
+        &__info
             text-align: center
 
         &__left,
@@ -1572,7 +1597,7 @@ ul, ol
                 margin-right: 0px
 
     .reviews
-        margin-bottom: 50rem
+        margin-bottom: 55rem
 
         &__info
             width: 300px
@@ -1608,8 +1633,13 @@ ul, ol
             display: none
 
         &__button
-            left: 0px
-            top: 85px
+            display: inline-block
+            left: 50%
+            top: 200%
+            transform: translate(-50%, -50%)
+            width: 140px
+            height: 50px
+            padding: unset
 
         &__center
             position: relative
@@ -1617,7 +1647,7 @@ ul, ol
 
         form
             top: 0px
-            width: 100%
+            width: 105%
 
     .property__link,
     .article__link,
